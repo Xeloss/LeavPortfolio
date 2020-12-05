@@ -1,0 +1,68 @@
+@import "~bootstrap";
+
+$corner-widht: 250px;
+$corner-height: 239px;
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+}
+
+.background {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(107, 197, 233);
+    z-index: -100;
+    height: 100%;
+    width: 100%;
+
+    .corner {
+        width: $corner-widht;
+        height: $corner-height;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-left {
+        top: 0;
+        left: 0;
+        background-image: url(/src/assets/images/top-left-corner.png);
+    }
+    .top-right {
+        top: 0;
+        right: 0;
+        background-image: url(/src/assets/images/top-right-corner.png);
+    }
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        background-image: url(/src/assets/images/bottom-right-corner.png);
+    }
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        background-image: url(/src/assets/images/bottom-left-corner.png);
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .background{
+        .corner {
+            width: $corner-widht * .7;
+            height: $corner-height * .7;
+        }
+    }
+}
+
+@media (max-width: 767.9px) {
+    .background {
+        .corner {
+            width: $corner-widht * .5;
+            height: $corner-height * .5;
+        }
+    }
+}
