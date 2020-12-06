@@ -1,0 +1,30 @@
+.home {
+    .character.left{
+        background-image: url(/src/assets/images/home-left-character.png);
+    }
+    .character.right{
+        background-image: url(/src/assets/images/home-right-character.png);
+    }
+}
+
+// @media (min-width:768px) and (max-width: 1024px) {
+//     .home {
+//         .background {
+//             .character {
+//                 background-size: contain;
+//                 // @include resize($character-width, $character-height, $resize-ratio-md);
+//             }
+//         }
+//     }
+// }
+
+@media (max-width: 1024px) {
+    .home {
+        .background {
+            .character.right {
+                background-position: bottom right;
+                // @include resize($character-width, $character-height, $resize-ratio-md);
+            }
+        }
+    }
+}

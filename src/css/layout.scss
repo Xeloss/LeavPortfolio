@@ -1,0 +1,101 @@
+$corner-width: 250px;
+$corner-height: 239px;
+$character-width: 100%;
+$character-height: 100%;
+
+$resize-ratio-md: .7;
+$resize-ratio-sm: .5;
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+}
+
+.background {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(107, 197, 233);
+    z-index: -100;
+    height: 100%;
+    width: 100%;
+
+    .corner {
+        width: $corner-width;
+        height: $corner-height;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-left {
+        top: 0;
+        left: 0;
+        background-image: url(/src/assets/images/top-left-corner.png);
+    }
+    .top-right {
+        top: 0;
+        right: 0;
+        background-image: url(/src/assets/images/top-right-corner.png);
+    }
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        background-image: url(/src/assets/images/bottom-right-corner.png);
+    }
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        background-image: url(/src/assets/images/bottom-left-corner.png);
+    }
+
+    .character {
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left {
+        left: 0;
+        background-position: top left;
+    }
+
+    .right {
+        right: 0;
+        background-position: top right;
+    }
+}
+
+@mixin resize($width, $height, $ratio) {
+    width: $width * $ratio;
+    height: $height * $ratio;
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .background {
+        .corner {
+            @include resize($corner-width, $corner-height, $resize-ratio-md);
+        }
+
+        .character {
+            background-size: contain;
+            // @include resize($character-width, $character-height, $resize-ratio-md);
+        }
+    }
+}
+
+@media (max-width: 767.9px) {
+    .background {
+        .corner {
+            @include resize($corner-width, $corner-height, $resize-ratio-sm);
+        }
+
+        .character {
+            background-size: contain;
+            // @include resize($character-width, $character-height, $resize-ratio-sm);
+        }
+    }
+}
