@@ -1,4 +1,4 @@
-.home {
+.gallery {
     .title {
         width: calc(100vw * .5);
         max-width: 900px;
@@ -6,15 +6,15 @@
     }
 
     .character.left{
-        background-image: url(/src/assets/images/home-left-character.png);
+        background-image: url(/src/assets/images/gallery-left-character.png);
     }
     .character.right{
-        background-image: url(/src/assets/images/home-right-character.png);
+        background-image: url(/src/assets/images/gallery-right-character.png);
     }
 }
 
 @media (max-width: 1024px) {
-    .home {
+    .gallery {
         .background {
             .character.right {
                 background-position: bottom right;
@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 440px) {
-    .home {
+    .gallery {
         .title {
             width: 100%;
             max-width: unset;

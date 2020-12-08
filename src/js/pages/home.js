@@ -1,10 +1,10 @@
 class Home {
-	namespace = 'home';
+    namespace = 'home';
 
-	beforeEnter = data => {
-		console.log(data);
-		console.log("Esta es la home");
-	};
+    // beforeEnter = data => {
+	// 	console.log(data);
+	// 	console.log("Esta es la home");
+	// };
 }
 
 export default new Home();
