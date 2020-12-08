@@ -11,6 +11,7 @@ barba.init({
     ],
     transitions: [{
         name: 'default-transition',
+        once: enterTransition,
         leave: (data) => {
             var left = data.current.container.getElementsByClassName("fade-in left");
             var right = data.current.container.getElementsByClassName("fade-in right");
@@ -30,7 +31,7 @@ barba.init({
                 easing: 'easeInCirc'
             });
 
-            var titleAnimation = anime({
+            var contentAnimation = anime({
                 targets: data.current.container,
                 opacity: 0,
                 duration: 500,
@@ -40,36 +41,38 @@ barba.init({
             return Promise.all([
                 leftAnimation.finished,
                 rightAnimation.finished,
-                titleAnimation.finished
+                contentAnimation.finished
             ]);
         },
         beforeEnter: (data) => {
             data.current.container.style.display = "none";
         },
-        afterEnter: (data) => {
-
-            var left = data.next.container.getElementsByClassName("fade-in left");
-            var right = data.next.container.getElementsByClassName("fade-in right");
-
-            var leftAnimation = anime({
-                targets: left,
-                opacity: 0,
-                translateX: '30%',
-                direction: 'reverse',
-                easing: 'easeInCirc'
-            });
-            var rightAnimation = anime ({
-                targets: right,
-                opacity: 0,
-                translateX: '-30%',
-                direction: 'reverse',
-                easing: 'easeInCirc'
-            });
-
-            return Promise.all([
-                leftAnimation.finished,
-                rightAnimation.finished
-            ]);
-        }
+        enter: enterTransition
       }]
 });
+
+function enterTransition(data) {
+
+    var left = data.next.container.getElementsByClassName("fade-in left");
+    var right = data.next.container.getElementsByClassName("fade-in right");
+
+    var leftAnimation = anime({
+        targets: left,
+        opacity: 0,
+        translateX: '30%',
+        direction: 'reverse',
+        easing: 'easeInCirc'
+    });
+    var rightAnimation = anime ({
+        targets: right,
+        opacity: 0,
+        translateX: '-30%',
+        direction: 'reverse',
+        easing: 'easeInCirc'
+    });
+
+    return Promise.all([
+        leftAnimation.finished,
+        rightAnimation.finished
+    ]);
+}
