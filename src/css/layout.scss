@@ -7,7 +7,7 @@ $resize-ratio-md: .7;
 $resize-ratio-sm: .5;
 
 body {
-    background-color: rgb(107, 197, 233);
+    background-color: #9cf2ff;
 }
 
 .wrapper {
@@ -71,10 +71,40 @@ body {
             background-position: top right;
         }
     }
-}
 
-.fade-in {
-    // opacity: 1;
+    .decoration {
+        position: absolute;
+        background-repeat: no-repeat;
+
+        &-1 { left: 10px; top: 490px; }
+        &-2 { left: 60px; top: 473px; }
+        &-3 { left: 130px; top: 472px; }
+        &-4 { left: 145px; top: 140px; }
+        &-5 { left: 320px; top: 20px; }
+        &-6 { left: 430px; top: 125px; }
+        &-7 { left: 470px; top: 395px; }
+        &-8 { left: 460px; top: 590px; }
+        &-9 { left: 465px; top: 670px; }
+        &-10 { left: 400px; top: 855px; }
+        &-11 { left: 220px; top: 710px; }
+        &-12 { left: 165px; top: 795px; }
+        &-13 { left: 860px; top: 215px; }
+
+        &-14 { right: 930px; bottom: 295px; }
+        &-15 { right: 495px; bottom: 250px; }
+        &-16 { right: 525px; bottom: 180px; }
+        &-17 { right: 380px; bottom: 40px; }
+        &-18 { right: 700px; bottom: 570px; }
+        &-19 { right: 570px; bottom: 580px; }
+        &-20 { right: 475px; bottom: 545px; }
+        &-21 { right: 290px; bottom: 520px; }
+        &-22 { right: 170px; bottom: 290px; }
+        &-23 { right: 380px; bottom: 670px; }
+        &-24 { right: 60px; bottom: 525px; }
+        &-25 { right: 5px; bottom: 585px; }
+        &-26 { right: 90px; bottom: 735px; }
+        &-27 { right: 335px; bottom: 890px; }
+    }
 }
 
 @mixin resize($width, $height, $ratio) {
@@ -90,7 +120,10 @@ body {
 
         .character {
             background-size: contain;
-            // @include resize($character-width, $character-height, $resize-ratio-md);
+        }
+
+        .decoration {
+            transform: scale($resize-ratio-md);
         }
     }
 }
@@ -107,6 +140,10 @@ body {
             &.left {
                 background-position: top 100px left;
             }
+        }
+
+        .decoration {
+            transform: scale($resize-ratio-sm);
         }
     }
 }

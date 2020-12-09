@@ -6,6 +6,7 @@
     }
 
     .character.left{
+        left: -190px;
         background-image: url(/src/assets/images/home-left-character.png);
     }
     .character.right{
@@ -16,9 +17,11 @@
 @media (max-width: 1024px) {
     .home {
         .background {
+            .character.left {
+                left: unset;
+            }
             .character.right {
                 background-position: bottom right;
-                // @include resize($character-width, $character-height, $resize-ratio-md);
             }
         }
     }
