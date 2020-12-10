@@ -7,7 +7,8 @@ class DefaultTransition {
     }
 
     once(data) {
-        this.enterTransition(data);
+        this.animateDecoration(data);
+        return this.animateCharactersOnEnter(data);
     }
 
     leave(data) {
@@ -45,13 +46,14 @@ class DefaultTransition {
 
     beforeEnter(data) {
         data.current.container.style.display = "none";
+        this.animateDecoration(data);
     }
 
     enter(data) {
-        this.enterTransition(data);
+        return this.animateCharactersOnEnter(data);
     }
 
-    enterTransition(data) {
+    animateCharactersOnEnter(data) {
 
         var left = data.next.container.getElementsByClassName("fade-in left");
         var right = data.next.container.getElementsByClassName("fade-in right");
@@ -77,6 +79,30 @@ class DefaultTransition {
         ]);
     }
 
+    animateDecoration(data) {
+        var decorations = data.next.container.getElementsByClassName("decoration");
+        for(let i = 0; i < decorations.length; i++){
+            decorations[i].style.opacity = 0;
+        }
+
+        anime({
+            targets: decorations,
+            opacity: 1,
+            duration: 3000,
+            complete: (anim) => {
+                anime({
+                    targets: decorations,
+                    translateY: 50,
+                    direction: 'alternate',
+                    loop: true,
+                    easing: 'easeInOutSine',
+                    duration: 5000,
+                    delay: anime.stagger(500, {from: 'center', start: 0}),
+                    autoplay: true
+                });
+            }
+        });
+    }
   }
 
 export default new DefaultTransition();
