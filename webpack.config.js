@@ -28,6 +28,19 @@ module.exports = (env, argv) => ({
 	},
 	module: {
 		rules: [
+            {
+                test: /\.ejs$/,
+                use: {
+                    loader: 'ejs-compiled-loader',
+                    options:
+                    {
+                        htmlmin: false,
+                        htmlminOptions: {
+                            removeComments: true
+                        }
+                    }
+                }
+            },
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
@@ -100,8 +113,8 @@ module.exports = (env, argv) => ({
 		}),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            minify: true,
-            template: './src/index.html'
+            // minify: true,
+            template: './src/index.ejs'
         })
 	],
 });

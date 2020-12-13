@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <title>Leav Café - Portafolio - Home</title>
+    </head>
+    <body data-barba="wrapper">
+        <main class="wrapper home" data-barba="container" data-barba-namespace="home">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img class="title" src="<%= require('./assets/images/home-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="index.html">home</a> |
+                        <a href="gallery.html">galeria</a>
+                    </div>
+                </div>
+            </div>
+
+            <%- include background -%>
+        </main>
+
+        <div class="background">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-right"></div>
+            <div class="corner bottom-left"></div>
+        </div>
+
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+    </body>
+</html>
