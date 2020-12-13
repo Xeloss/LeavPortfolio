@@ -4,13 +4,13 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env, argv) => ({
 	mode: argv.mode,
 	devtool: 'source-map',
 	entry: './src/js/app.js',
 	output: {
-		publicPath: './dist/',
 		filename: 'js/bundle.js',
 		chunkFilename: 'js/[name].js',
 		path: path.resolve(__dirname, 'dist'),
@@ -34,7 +34,24 @@ module.exports = (env, argv) => ({
 				use: {
 					loader: 'babel-loader',
 				},
-			},
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'assets/images/[contenthash].[ext]',
+                        esModule: false
+                    }
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            disable: argv.mode === 'development',
+                        }
+                    }
+                ]
+            },
 			{
 				test: /\.(scss)$/,
 				use: [
@@ -81,6 +98,10 @@ module.exports = (env, argv) => ({
 			filename: 'css/[name].css',
 			chunkFilename: 'css/[id].css',
 		}),
-		new CleanWebpackPlugin(),
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            minify: true,
+            template: './src/index.html'
+        })
 	],
 });
