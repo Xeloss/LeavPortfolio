@@ -119,7 +119,7 @@ module.exports = (env, argv) => ({
         new HtmlWebpackPlugin({
             minify: argv.mode !== 'development',
             filename: `${fileName}.html`,
-            template: `./src/${fileName}.ejs`
+            template: `./src/views/${fileName}.ejs`
         }))
 	],
 });

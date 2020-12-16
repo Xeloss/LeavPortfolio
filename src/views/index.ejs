@@ -4,14 +4,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-        <title>Leav Café - Portafolio - Galería</title>
+        <title>Leav Café - Portafolio - Home</title>
     </head>
     <body data-barba="wrapper">
-        <main class="wrapper gallery" data-barba="container" data-barba-namespace="gallery">
+        <main class="wrapper home" data-barba="container" data-barba-namespace="home">
             <div class="content container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img class="title" src="<%= require('./assets/images/section-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
+                        <img class="title" src="<%= require('../assets/images/home-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
                     </div>
                 </div>
 
@@ -23,15 +23,10 @@
                 </div>
             </div>
 
-            <%- include background -%>
+            <%- include partials/background -%>
         </main>
 
-        <div class="background">
-            <div class="corner top-left"></div>
-            <div class="corner top-right"></div>
-            <div class="corner bottom-right"></div>
-            <div class="corner bottom-left"></div>
-        </div>
+        <%- include partials/overlay -%>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
     </body>
