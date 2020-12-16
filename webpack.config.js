@@ -107,14 +107,19 @@ module.exports = (env, argv) => ({
 			jQuery: 'jquery',
 			'windows.jQuery': 'jquery',
 		}),
-		new MiniCssExtractPlugin({
+
+        new MiniCssExtractPlugin({
 			filename: 'css/[name].css',
 			chunkFilename: 'css/[id].css',
-		}),
+        }),
+
         new CleanWebpackPlugin(),
+
+        ...['index', 'gallery'].map(fileName =>
         new HtmlWebpackPlugin({
-            // minify: true,
-            template: './src/index.ejs'
-        })
+            minify: argv.mode !== 'development',
+            filename: `${fileName}.html`,
+            template: `./src/${fileName}.ejs`
+        }))
 	],
 });
