@@ -34,9 +34,9 @@ module.exports = (env, argv) => ({
                     loader: 'ejs-compiled-loader',
                     options:
                     {
-                        htmlmin: false,
+                        htmlmin: argv.mode !== 'development',
                         htmlminOptions: {
-                            removeComments: true
+                            removeComments: argv.mode !== 'development'
                         }
                     }
                 }
@@ -113,7 +113,7 @@ module.exports = (env, argv) => ({
 			chunkFilename: 'css/[id].css',
         }),
 
-        new CleanWebpackPlugin(),
+        // new CleanWebpackPlugin(),
 
         ...['index', 'gallery'].map(fileName =>
         new HtmlWebpackPlugin({

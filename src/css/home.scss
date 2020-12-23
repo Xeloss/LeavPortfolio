@@ -1,3 +1,11 @@
+@use "sass:math";
+
+@function polarTranslation($radius, $degAngle) {
+    $x: $radius * math.cos($degAngle);
+    $y: $radius * math.sin($degAngle);
+    @return translate(#{$x}, #{$y});
+}
+
 .home {
     .title {
         width: calc(100vw * .5);
@@ -7,11 +15,37 @@
 
     .character.left{
         left: -190px;
-        background-image: url(/src/assets/images/home-left-character.png);
+        background-image: url("/src/assets/images/home-left-character.png");
     }
     .character.right{
         background-image: url(/src/assets/images/home-right-character.png);
     }
+}
+
+.main-menu {
+    position: relative;
+
+    .button {
+        display: block;
+        position: absolute;
+        left: calc(50% - 170px);
+        top: calc(50% - 170px);
+        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+        $distance: 75%;
+        $startingAngle: -90deg;
+
+        @for $i from 1 through 5 {
+            &-#{$i} {
+                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.7);
+            }
+
+            &-#{$i}:hover {
+                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(1);
+            }
+        }
+    }
+
 }
 
 @media (max-width: 1024px) {

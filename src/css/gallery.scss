@@ -6,10 +6,10 @@
     }
 
     .character.left{
-        background-image: url(/src/assets/images/gallery-left-character.png);
+        background-image: url("/src/assets/images/gallery-left-character.png");
     }
     .character.right{
-        background-image: url(/src/assets/images/gallery-right-character.png);
+        background-image: url("/src/assets/images/gallery-right-character.png");
     }
 }
 
@@ -18,7 +18,6 @@
         .background {
             .character.right {
                 background-position: bottom right;
-                // @include resize($character-width, $character-height, $resize-ratio-md);
             }
         }
     }

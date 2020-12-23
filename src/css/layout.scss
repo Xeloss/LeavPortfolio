@@ -16,6 +16,11 @@ body {
     height: calc(100vh);
 }
 
+.container {
+    height: 100vh;
+    overflow: hidden;
+}
+
 .background {
 
     position: absolute;
@@ -37,22 +42,22 @@ body {
     .top-left {
         top: 0;
         left: 0;
-        background-image: url(/src/assets/images/top-left-corner.png);
+        background-image: url("/src/assets/images/top-left-corner.png");
     }
     .top-right {
         top: 0;
         right: 0;
-        background-image: url(/src/assets/images/top-right-corner.png);
+        background-image: url("/src/assets/images/top-right-corner.png");
     }
     .bottom-right {
         bottom: 0;
         right: 0;
-        background-image: url(/src/assets/images/bottom-right-corner.png);
+        background-image: url("/src/assets/images/bottom-right-corner.png");
     }
     .bottom-left {
         bottom: 0;
         left: 0;
-        background-image: url(/src/assets/images/bottom-left-corner.png);
+        background-image: url("/src/assets/images/bottom-left-corner.png");
     }
 
     .character {
