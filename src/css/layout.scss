@@ -112,6 +112,31 @@ body {
     }
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+
+    &-track{
+        background: none;
+    }
+
+    &-thumb {
+        background: rgba(136, 136, 136, 0);
+        border-radius: 5px;
+    }
+}
+
+/* Handle */
+:hover {
+    &::-webkit-scrollbar-thumb {
+        background: rgba(136, 136, 136, 0.5);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(136, 136, 136, 1);
+    }
+}
+
 @mixin resize($width, $height, $ratio) {
     width: $width * $ratio;
     height: $height * $ratio;

@@ -1,15 +1,28 @@
 .gallery {
+    .flex-column {
+        max-height: 100%;
+    }
+
     .title {
         width: calc(100vw * .5);
         max-width: 900px;
         min-width: 425px;
     }
 
-    .character.left{
+    .character.left {
         background-image: url("/src/assets/images/gallery-left-character.png");
     }
-    .character.right{
+    .character.right {
         background-image: url("/src/assets/images/gallery-right-character.png");
+    }
+
+    .thumbnail-list {
+        overflow: auto;
+
+        .thumbnail {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
     }
 }
 
