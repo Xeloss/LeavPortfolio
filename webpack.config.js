@@ -14,7 +14,7 @@ module.exports = (env, argv) => ({
 		filename: 'js/bundle.js',
 		chunkFilename: 'js/[name].js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: argv.mode === 'development' ? '/dist/' : '/'
+        publicPath: argv.mode === 'development' ? '/dist/' : '/LeavPortfolio/'
 	},
 	optimization: {
 		usedExports: true,
@@ -50,7 +50,7 @@ module.exports = (env, argv) => ({
 				},
             },
             {
-                test: /\.(gif|png|jpe?g|svg)$/i,
+                test: /\.(gif|png|jpe?g|svg|ico)$/i,
                 use: [{
                         loader: 'file-loader',
                         options: {
