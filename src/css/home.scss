@@ -41,7 +41,7 @@
             }
 
             &-#{$i}:hover {
-                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(1);
+                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.85);
             }
         }
     }
