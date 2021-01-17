@@ -9,16 +9,40 @@
     <body data-barba="wrapper">
         <main class="wrapper gallery" data-barba="container" data-barba-namespace="gallery">
             <div class="content container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <img class="title" src="<%= require('../assets/images/section-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <a href="index.html">home</a> |
-                        <a href="gallery.html">galeria</a>
+                <div class="d-flex flex-column">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="title" src="<%= require('../assets/images/section-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <a href="index.html">home</a> |
+                            <a href="gallery.html">galeria</a>
+                        </div>
+                    </div>
+
+                    <div class="row thumbnail-list flex-grow-1">
+                        {{#repeat 4}}
+                            <div class="col-3">
+                                <div class="row">
+                                    {{#each (segment artItems $iteration 4)}}
+                                        <div class="col-12">
+                                            <div class="thumbnail">
+                                                <a href="art.html?id={{id}}">
+                                                    <img src="{{thumbnail}}" alt="{{title}}" class="img-fluid">
+                                                    <div class="thumbnail-overlay">
+                                                        <span>{{title}}</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        {{/repeat}}
                     </div>
                 </div>
             </div>

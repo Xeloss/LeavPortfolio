@@ -22,43 +22,13 @@ body {
 }
 
 .background {
-
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -100;
     height: 100%;
     width: 100%;
     overflow: hidden;
-
-    .corner {
-        width: $corner-width;
-        height: $corner-height;
-        position: absolute;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .top-left {
-        top: 0;
-        left: 0;
-        background-image: url("/src/assets/images/top-left-corner.png");
-    }
-    .top-right {
-        top: 0;
-        right: 0;
-        background-image: url("/src/assets/images/top-right-corner.png");
-    }
-    .bottom-right {
-        bottom: 0;
-        right: 0;
-        background-image: url("/src/assets/images/bottom-right-corner.png");
-    }
-    .bottom-left {
-        bottom: 0;
-        left: 0;
-        background-image: url("/src/assets/images/bottom-left-corner.png");
-    }
+    z-index: -100;
 
     .character {
         position: absolute;
@@ -112,6 +82,62 @@ body {
     }
 }
 
+.overlay {
+    .corner {
+        width: $corner-width;
+        height: $corner-height;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-left {
+        top: 0;
+        left: 0;
+        background-image: url("../assets/images/top-left-corner.png");
+    }
+    .top-right {
+        top: 0;
+        right: 0;
+        background-image: url("../assets/images/top-right-corner.png");
+    }
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        background-image: url("../assets/images/bottom-right-corner.png");
+    }
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        background-image: url("../assets/images/bottom-left-corner.png");
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+
+    &-track{
+        background: none;
+    }
+
+    &-thumb {
+        background: rgba(136, 136, 136, 0);
+        border-radius: 5px;
+    }
+}
+
+/* Handle */
+:hover {
+    &::-webkit-scrollbar-thumb {
+        background: rgba(136, 136, 136, 0.5);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(136, 136, 136, 1);
+    }
+}
+
 @mixin resize($width, $height, $ratio) {
     width: $width * $ratio;
     height: $height * $ratio;
@@ -119,10 +145,6 @@ body {
 
 @media (min-width:768px) and (max-width: 1024px) {
     .background {
-        .corner {
-            @include resize($corner-width, $corner-height, $resize-ratio-md);
-        }
-
         .character {
             background-size: contain;
         }
@@ -131,14 +153,16 @@ body {
             transform: scale($resize-ratio-md);
         }
     }
+
+    .overlay {
+        .corner {
+            @include resize($corner-width, $corner-height, $resize-ratio-md);
+        }
+    }
 }
 
 @media (max-width: 767.9px) {
     .background {
-        .corner {
-            @include resize($corner-width, $corner-height, $resize-ratio-sm);
-        }
-
         .character {
             background-size: contain;
 
@@ -149,6 +173,12 @@ body {
 
         .decoration {
             transform: scale($resize-ratio-sm);
+        }
+    }
+
+    .overlay {
+        .corner {
+            @include resize($corner-width, $corner-height, $resize-ratio-sm);
         }
     }
 }

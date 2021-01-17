@@ -13,7 +13,8 @@ module.exports = (env, argv) => ({
 	output: {
 		filename: 'js/bundle.js',
 		chunkFilename: 'js/[name].js',
-		path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: argv.mode === 'development' ? '/' : '/LeavPortfolio/'
 	},
 	optimization: {
 		usedExports: true,
@@ -49,13 +50,14 @@ module.exports = (env, argv) => ({
 				},
             },
             {
-                test: /\.(gif|png|jpe?g|svg)$/i,
+                test: /\.(gif|png|jpe?g|svg|ico)$/i,
                 use: [{
-                    loader: 'file-loader',
-                    options: {
-                        name: 'assets/images/[contenthash].[ext]',
-                        esModule: false
-                    }
+                        loader: 'file-loader',
+                        options: {
+                            name: '[contenthash].[ext]',
+                            outputPath: 'assets/images',
+                            esModule: false
+                        }
                     },
                     {
                         loader: 'image-webpack-loader',
@@ -77,7 +79,7 @@ module.exports = (env, argv) => ({
 					{
 						loader: 'css-loader',
 						options: {
-							url: false,
+							url: true,
 							sourceMap: argv.mode === 'development',
 						},
 					},
@@ -113,9 +115,11 @@ module.exports = (env, argv) => ({
 			chunkFilename: 'css/[id].css',
         }),
 
-        // new CleanWebpackPlugin(),
+        new CleanWebpackPlugin({
+            dry: argv.mode === 'development'
+        }),
 
-        ...['index', 'gallery'].map(fileName =>
+        ...['index', 'gallery', 'art'].map(fileName =>
         new HtmlWebpackPlugin({
             minify: argv.mode !== 'development',
             filename: `${fileName}.html`,

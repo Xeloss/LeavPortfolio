@@ -15,10 +15,10 @@
 
     .character.left{
         left: -190px;
-        background-image: url("/src/assets/images/home-left-character.png");
+        background-image: url("../assets/images/home-left-character.png");
     }
     .character.right{
-        background-image: url(/src/assets/images/home-right-character.png);
+        background-image: url("../assets/images/home-right-character.png");
     }
 }
 
@@ -41,7 +41,7 @@
             }
 
             &-#{$i}:hover {
-                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(1);
+                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.85);
             }
         }
     }
