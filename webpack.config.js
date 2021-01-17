@@ -119,7 +119,7 @@ module.exports = (env, argv) => ({
             dry: argv.mode === 'development'
         }),
 
-        ...['index', 'gallery'].map(fileName =>
+        ...['index', 'gallery', 'art'].map(fileName =>
         new HtmlWebpackPlugin({
             minify: argv.mode !== 'development',
             filename: `${fileName}.html`,

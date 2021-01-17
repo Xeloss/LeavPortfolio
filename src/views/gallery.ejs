@@ -31,10 +31,12 @@
                                     {{#each (segment artItems $iteration 4)}}
                                         <div class="col-12">
                                             <div class="thumbnail">
-                                                <img src="{{thumbnail}}" alt="" class="img-fluid">
-                                                <div class="thumbnail-overlay">
-                                                    <span>{{title}}</span>
-                                                </div>
+                                                <a href="art.html?id={{id}}">
+                                                    <img src="{{thumbnail}}" alt="{{title}}" class="img-fluid">
+                                                    <div class="thumbnail-overlay">
+                                                        <span>{{title}}</span>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     {{/each}}
