@@ -37,6 +37,55 @@ let illustrations = [
     },{
         title : "Test Images",
         description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art8,
+        fullSize : art8
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art9,
+        fullSize : art9
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art10,
+        fullSize : art10
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art11,
+        fullSize : art11
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art12,
+        fullSize : art12
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art13,
+        fullSize : art13
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art3,
+        fullSize : art3
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art8,
+        fullSize : art8
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art9,
+        fullSize : art9
+    }
+];
+
+let comics = [
+    {
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
         thumbnail : art4,
         fullSize : art4
     },{
@@ -84,6 +133,24 @@ let illustrations = [
         description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
         thumbnail : art13,
         fullSize : art13
+    }
+];
+let fanarts = [
+    {
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art11,
+        fullSize : art11
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art12,
+        fullSize : art12
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art13,
+        fullSize : art13
     },{
         title : "Test Images",
         description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
@@ -99,11 +166,38 @@ let illustrations = [
         description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
         thumbnail : art16,
         fullSize : art16
-    },
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art4,
+        fullSize : art4
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art5,
+        fullSize : art5
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art6,
+        fullSize : art6
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art11,
+        fullSize : art11
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art12,
+        fullSize : art12
+    },{
+        title : "Test Images",
+        description : "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+        thumbnail : art13,
+        fullSize : art13
+    }
 ];
-
-let comics = [];
-let fanarts = [];
 
 illustrations.forEach(i => i.category = artCategories.illustrations);
 comics.forEach(i => i.category = artCategories.comics);

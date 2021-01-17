@@ -1,4 +1,5 @@
-import artCollection from '../data/artCollection'
+import artCollection from '../data/artCollection';
+import artCategories from '../data/artCategories';
 
 class ArtService {
 
@@ -8,6 +9,10 @@ class ArtService {
 
     listByCategory(category) {
         return artCollection.filter(a => a.category === category);
+    }
+
+    isValidCategory(category) {
+        return Object.entries(artCategories).some(kp => kp[1] === category);
     }
 }
 
