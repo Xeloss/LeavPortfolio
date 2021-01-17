@@ -25,155 +25,23 @@
                     </div>
 
                     <div class="row thumbnail-list flex-grow-1">
-                        <div class="col-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art1.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
+                        {{#repeat 4}}
+                            <div class="col-3">
+                                <div class="row">
+                                    {{#each (segment artItems $iteration 4)}}
+                                        <div class="col-12">
+                                            <div class="thumbnail">
+                                                <img src="{{thumbnail}}" alt="" class="img-fluid">
+                                                <div class="thumbnail-overlay">
+                                                    <span>{{title}}</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art2.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art3.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art4.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
+                                    {{/each}}
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art5.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art6.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art7.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art8.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art9.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art10.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art11.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art16.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art12.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art13.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art14.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="thumbnail">
-                                        <img src="<%= require('../assets/art/art15.jpg') %>" alt="" class="img-fluid">
-                                        <div class="thumbnail-overlay">
-                                            <span>Titulo</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {{/repeat}}
                     </div>
-
                 </div>
             </div>
 

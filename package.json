@@ -42,9 +42,10 @@
   },
   "dependencies": {
     "@barba/core": "^2.8.0",
+    "animejs": "^3.2.1",
     "bootstrap": "^4.5.3",
+    "handlebars": "^4.7.6",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "animejs": "^3.2.1"
+    "popper.js": "^1.16.0"
   }
 }

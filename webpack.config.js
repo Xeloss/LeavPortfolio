@@ -14,7 +14,7 @@ module.exports = (env, argv) => ({
 		filename: 'js/bundle.js',
 		chunkFilename: 'js/[name].js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: argv.mode === 'development' ? '/dist/' : '/LeavPortfolio/'
+        publicPath: argv.mode === 'development' ? '/' : '/LeavPortfolio/'
 	},
 	optimization: {
 		usedExports: true,
