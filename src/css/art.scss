@@ -1,10 +1,21 @@
 .art {
     .art-container {
-        max-height: 100vh;
+        height: 100vh;
         overflow: auto;
+        justify-content: center;
 
         a {
             cursor: zoom-in;
+            margin: auto 0;
+        }
+    }
+
+    .art-info-container {
+        position: absolute;
+        bottom: 0;
+        .col-12 {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
         }
     }
 }
