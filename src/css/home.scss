@@ -9,7 +9,7 @@
 .home {
     .title {
         width: calc(100vw * .5);
-        max-width: 900px;
+        max-width: 750px;
         min-width: 425px;
     }
 
@@ -32,7 +32,7 @@
         top: calc(50% - 170px);
         transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
-        $distance: 75%;
+        $distance: 65%;
         $startingAngle: -90deg;
 
         @for $i from 1 through 5 {
