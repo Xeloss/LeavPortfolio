@@ -8,7 +8,7 @@ class DefaultTransition {
 
     once(data) {
         this.animateDecoration(data);
-        return this.animateCharactersOnEnter(data);
+        this.animateCharactersOnEnter(data);
     }
 
     leave(data) {
@@ -50,7 +50,7 @@ class DefaultTransition {
     }
 
     enter(data) {
-        return this.animateCharactersOnEnter(data);
+        this.animateCharactersOnEnter(data);
     }
 
     animateCharactersOnEnter(data) {
