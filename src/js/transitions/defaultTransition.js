@@ -8,7 +8,7 @@ class DefaultTransition {
 
     once(data) {
         this.animateDecoration(data);
-        return this.animateCharactersOnEnter(data);
+        this.animateCharactersOnEnter(data, true);
     }
 
     leave(data) {
@@ -45,16 +45,23 @@ class DefaultTransition {
     }
 
     beforeEnter(data) {
-        data.current.container.style.display = "none";
         this.animateDecoration(data);
     }
 
     enter(data) {
-        return this.animateCharactersOnEnter(data);
+        this.animateCharactersOnEnter(data, true);
+        anime({
+            targets: data.next.container,
+            opacity: 0,
+            duration: 500,
+            easing: 'linear',
+            direction: 'reverse'
+        });
     }
 
-    animateCharactersOnEnter(data) {
+    animateCharactersOnEnter(data, isEntering) {
 
+        var direction = isEntering ? 'reverse' : 'normal';
         var left = data.next.container.getElementsByClassName("fade-in left");
         var right = data.next.container.getElementsByClassName("fade-in right");
 
@@ -62,14 +69,14 @@ class DefaultTransition {
             targets: left,
             opacity: 0,
             translateX: '30%',
-            direction: 'reverse',
+            direction: direction,
             easing: 'easeInCirc'
         });
         var rightAnimation = anime ({
             targets: right,
             opacity: 0,
             translateX: '-30%',
-            direction: 'reverse',
+            direction: direction,
             easing: 'easeInCirc'
         });
 
