@@ -14,11 +14,13 @@
     }
 
     .character.left{
-        left: -190px;
+        left: -155px;
         background-image: url("../assets/images/home-left-character.png");
     }
     .character.right{
         background-image: url("../assets/images/home-right-character.png");
+        top: 53px;
+        right: 25px;
     }
 }
 
