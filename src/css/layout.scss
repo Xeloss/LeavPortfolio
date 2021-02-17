@@ -1,5 +1,5 @@
 $corner-width: 250px;
-$corner-height: 239px;
+$corner-height: 250px;
 $character-width: 100%;
 $character-height: 100%;
 
@@ -7,7 +7,7 @@ $resize-ratio-md: .7;
 $resize-ratio-sm: .5;
 
 body {
-    background-color: #9cf2ff;
+    background: url(../assets/images/background.png);
 }
 
 .wrapper {
@@ -19,6 +19,7 @@ body {
 .container {
     height: 100vh;
     overflow: hidden;
+    padding: 5px;
 }
 
 .background {
@@ -38,7 +39,7 @@ body {
 
         &.left {
             left: 0;
-            background-position: top left;
+            background-position: bottom left;
         }
 
         &.right {
@@ -51,34 +52,37 @@ body {
         position: absolute;
         background-repeat: no-repeat;
 
-        &-1 { left: 10px; top: 490px; }
-        &-2 { left: 60px; top: 473px; }
-        &-3 { left: 130px; top: 472px; }
-        &-4 { left: 145px; top: 140px; }
-        &-5 { left: 320px; top: 20px; }
-        &-6 { left: 430px; top: 125px; }
-        &-7 { left: 470px; top: 395px; }
-        &-8 { left: 460px; top: 590px; }
-        &-9 { left: 465px; top: 670px; }
-        &-10 { left: 400px; top: 855px; }
-        &-11 { left: 220px; top: 710px; }
-        &-12 { left: 165px; top: 795px; }
-        &-13 { left: 860px; top: 215px; }
+        &-1 { left: 10px; top: 300px; }
+        &-2 { left: 4px; top: 457px; }
+        &-3 { left: 130px; top: 358px; }
+        &-4 { left: 280px; top: 0px; }
+        &-5 { left: 242px; top: 703px; }
+        &-6 { left: 470px; top: 160px; }
+        &-7 { left: 500px; top: 275px; }
+        &-8 { left: 485px; top: 550px; }
+        &-9 { left: 430px; top: 743px; }
+        &-10 { left: 490px; top: 610px; }
+        &-11 { left: 590px; top: 750px; }
+        &-12 { left: 660px; top: 675px; }
+        &-13 { left: 759px; top: 230px; }
+        &-14 { left: 762px; top: 855px; }
+        &-15 { left: 850px; top: 470px; }
 
-        &-14 { right: 930px; bottom: 295px; }
-        &-15 { right: 495px; bottom: 250px; }
-        &-16 { right: 525px; bottom: 180px; }
-        &-17 { right: 380px; bottom: 40px; }
-        &-18 { right: 700px; bottom: 570px; }
-        &-19 { right: 570px; bottom: 580px; }
-        &-20 { right: 475px; bottom: 545px; }
-        &-21 { right: 290px; bottom: 520px; }
-        &-22 { right: 170px; bottom: 290px; }
-        &-23 { right: 380px; bottom: 670px; }
-        &-24 { right: 60px; bottom: 525px; }
-        &-25 { right: 5px; bottom: 585px; }
-        &-26 { right: 90px; bottom: 735px; }
-        &-27 { right: 335px; bottom: 890px; }
+        &-16 { right: 910px; bottom: 80px; }
+        &-17 { right: 800px; bottom: 530px; }
+        &-18 { right: 650px; bottom: 580px; }
+        &-19 { right: 655px; bottom: 80px; }
+        &-20 { right: 550px; bottom: 235px; }
+        &-21 { right: 530px; bottom: 445px; }
+        &-22 { right: 504px; bottom: 560px; }
+        &-23 { right: 440px; bottom: 335px; }
+        &-24 { right: 370px; bottom: 655px; }
+        &-25 { right: 355px; bottom: 815px; }
+        &-26 { right: 235px; bottom: 225px; }
+        &-27 { right: 175px; bottom: 865px; }
+        &-28 { right: 100px; bottom: 200px; }
+        &-29 { right: -8px; bottom: 300px; }
+        &-30 { right: 10px; bottom: 605px; }
     }
 }
 
@@ -89,6 +93,7 @@ body {
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 5px;
     }
 
     .top-left {
