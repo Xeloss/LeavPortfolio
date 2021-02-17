@@ -1,5 +1,5 @@
 $corner-width: 250px;
-$corner-height: 239px;
+$corner-height: 250px;
 $character-width: 100%;
 $character-height: 100%;
 
@@ -19,6 +19,7 @@ body {
 .container {
     height: 100vh;
     overflow: hidden;
+    padding: 5px;
 }
 
 .background {
@@ -92,6 +93,7 @@ body {
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 5px;
     }
 
     .top-left {
