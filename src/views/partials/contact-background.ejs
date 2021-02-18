@@ -1,0 +1,9 @@
+<div class="background">
+    <% for(var i = 1; i <= 30; i++) {%>
+        <img src="<%= require('../assets/images/decorations/decoration-' + i + '.png') %>" class="decoration decoration-<%= i %>" />
+    <% } %>
+
+    <div class="characters-container">
+        <div class="characters fade-in"></div>
+    </div>
+</div>

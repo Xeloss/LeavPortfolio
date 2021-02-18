@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <title>Leav Café - Portafolio - Contacto</title>
+    </head>
+    <body data-barba="wrapper">
+        <main class="wrapper contact" data-barba="container" data-barba-namespace="gallery">
+            <div class="content container">
+
+                <div class="d-flex flex-column">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="title" src="<%= require('../assets/images/contact-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <a href="index.html">home</a> |
+                            <a href="gallery.html">galería</a> |
+                            <a href="contact.html">contacto</a>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-12 my-5">
+                            <a href="mailto:leav77@gmail.com" target="_blank" title="Come on, don't be shy and send me an email">
+                                <img src="<%= require('../assets/images/email-address.png') %>" alt="leav77@gmail.com" />
+                            </a>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <a class="link-button" href="https://twitter.com/leavcafe" target="_blank" title="Follow me on Twitter!">
+                                <img src="<%= require('../assets/images/twitter-link.png') %>" alt="Twitter - leavcafe" />
+                            </a>
+
+                            <a class="link-button" href="https://www.instagram.com/leavcafe/" target="_blank" title="More awesome stuff on my Instagram">
+                                <img src="<%= require('../assets/images/instagram-link.png') %>" alt="Instagram - leavcafe" />
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <%- include partials/contact-background -%>
+        </main>
+
+        <%- include partials/overlay -%>
+
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+    </body>
+</html>
