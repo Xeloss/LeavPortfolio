@@ -6,6 +6,14 @@ $character-height: 100%;
 $resize-ratio-md: .7;
 $resize-ratio-sm: .5;
 
+@mixin position($left, $top) {
+    $reference-width: 1920;
+    $reference-height: 973;
+
+    left:  $left * 100% / $reference-width;
+    top: $top * 100% / $reference-height;
+}
+
 body {
     background: url(../assets/images/background.png);
 }
@@ -55,37 +63,36 @@ body {
         position: absolute;
         background-repeat: no-repeat;
 
-        &-1 { left: 10px; top: 300px; }
-        &-2 { left: 4px; top: 457px; }
-        &-3 { left: 130px; top: 358px; }
-        &-4 { left: 280px; top: 0px; }
-        &-5 { left: 242px; top: 703px; }
-        &-6 { left: 470px; top: 160px; }
-        &-7 { left: 500px; top: 275px; }
-        &-8 { left: 485px; top: 550px; }
-        &-9 { left: 430px; top: 743px; }
-        &-10 { left: 490px; top: 610px; }
-        &-11 { left: 590px; top: 750px; }
-        &-12 { left: 660px; top: 675px; }
-        &-13 { left: 759px; top: 230px; }
-        &-14 { left: 762px; top: 855px; }
-        &-15 { left: 850px; top: 470px; }
-
-        &-16 { right: 910px; bottom: 80px; }
-        &-17 { right: 800px; bottom: 530px; }
-        &-18 { right: 650px; bottom: 580px; }
-        &-19 { right: 655px; bottom: 80px; }
-        &-20 { right: 550px; bottom: 235px; }
-        &-21 { right: 530px; bottom: 445px; }
-        &-22 { right: 504px; bottom: 560px; }
-        &-23 { right: 440px; bottom: 335px; }
-        &-24 { right: 370px; bottom: 655px; }
-        &-25 { right: 355px; bottom: 815px; }
-        &-26 { right: 235px; bottom: 225px; }
-        &-27 { right: 175px; bottom: 865px; }
-        &-28 { right: 100px; bottom: 200px; }
-        &-29 { right: -8px; bottom: 300px; }
-        &-30 { right: 10px; bottom: 605px; }
+        &-1 { @include position(10, 300) }
+        &-2 { @include position(4, 457) }
+        &-3 { @include position(130, 358) }
+        &-4 { @include position(280, 0) }
+        &-5 { @include position(242, 703) }
+        &-6 { @include position(470, 160) }
+        &-7 { @include position(500, 275) }
+        &-8 { @include position(485, 550) }
+        &-9 { @include position(430, 743) }
+        &-10 { @include position(490, 610) }
+        &-11 { @include position(590, 750) }
+        &-12 { @include position(660, 675) }
+        &-13 { @include position(759, 230) }
+        &-14 { @include position(762, 855) }
+        &-15 { @include position(850, 470) }
+        &-16 { @include position(908, 825) }
+        &-17 { @include position(1083, 398) }
+        &-18 { @include position(1183, 300) }
+        &-19 { @include position(1203, 810) }
+        &-20 { @include position(1265, 647) }
+        &-21 { @include position(1351, 478) }
+        &-22 { @include position(1312, 305) }
+        &-23 { @include position(1406, 542) }
+        &-24 { @include position(1432, 178) }
+        &-25 { @include position(1523, 106) }
+        &-26 { @include position(1665, 638) }
+        &-27 { @include position(1713, 58) }
+        &-28 { @include position(1804, 722) }
+        &-29 { @include position(1849, 512) }
+        &-30 { @include position(1875, 257) }
     }
 }
 
@@ -153,11 +160,6 @@ body {
     }
 }
 
-@mixin resize($width, $height, $ratio) {
-    width: $width * $ratio;
-    height: $height * $ratio;
-}
-
 @media (min-width:768px) and (max-width: 1024px) {
     .background {
         .character {
@@ -168,12 +170,6 @@ body {
             transform: scale($resize-ratio-md);
         }
     }
-
-    // .overlay {
-    //     .corner {
-    //         @include resize($corner-width, $corner-height, $resize-ratio-md);
-    //     }
-    // }
 }
 
 @media (max-width: 767.9px) {
@@ -190,18 +186,4 @@ body {
             transform: scale($resize-ratio-sm);
         }
     }
-
-    // .overlay {
-    //     .corner {
-    //         @include resize($corner-width, $corner-height, $resize-ratio-sm);
-    //     }
-    // }
-}
-
-@media (max-width: 424.9px) {
-    // .background {
-    //     .corner.top-left, .corner.top-right {
-    //         display: none;
-    //     }
-    // }
 }
