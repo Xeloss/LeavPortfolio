@@ -16,11 +16,11 @@ body {
     height: calc(100vh);
 }
 
-.container {
+.container, .container-fluid {
     height: 100vh;
     overflow: hidden;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
 .background {
@@ -37,6 +37,8 @@ body {
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
+        background-size: contain;
+        background-origin: content-box;
 
         &.left {
             left: 0;
