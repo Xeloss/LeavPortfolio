@@ -25,11 +25,12 @@
                         </div>
                     </div>
 
-                    <div class="row thumbnail-list flex-grow-1">
-                        {{#repeat 4}}
-                            <div class="col-3">
+                    <div class="row thumbnail-list flex-grow-1 justify-content-center">
+                        {{#repeat 3}}
+                            <div class="col-xl-3 col-2">
+                                <!-- <div class="col-xl-3 col-7"> -->
                                 <div class="row">
-                                    {{#each (segment artItems $iteration 4)}}
+                                    {{#each (segment artItems $iteration 3)}}
                                         <div class="col-12">
                                             <div class="thumbnail">
                                                 <a href="art.html?id={{id}}">
