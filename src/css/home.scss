@@ -14,12 +14,12 @@
     }
 
     .character.left{
-        left: -155px;
+        left: -120px;
         background-image: url("../assets/images/home-left-character.png");
     }
     .character.right{
         background-image: url("../assets/images/home-right-character.png");
-        top: 53px;
+        top: 130px;
         right: 25px;
     }
 }
@@ -45,29 +45,6 @@
             &-#{$i}:hover {
                 transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.90);
             }
-        }
-    }
-}
-
-@media (max-width: 1024px) {
-    .home {
-        .background {
-            .character.left {
-                left: unset;
-            }
-            .character.right {
-                background-position: bottom right;
-            }
-        }
-    }
-}
-
-@media (max-width: 440px) {
-    .home {
-        .title {
-            width: 100%;
-            max-width: unset;
-            min-width: unset;
         }
     }
 }

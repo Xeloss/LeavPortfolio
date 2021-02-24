@@ -3,8 +3,8 @@ $corner-height: 250px;
 $character-width: 100%;
 $character-height: 100%;
 
-$resize-ratio-md: .7;
-$resize-ratio-sm: .5;
+$resize-ratio-md: .6;
+$resize-ratio-sm: .4;
 
 @mixin position($left, $top) {
     $reference-width: 1920;
@@ -63,9 +63,9 @@ body {
         position: absolute;
         background-repeat: no-repeat;
 
-        &-1 { @include position(10, 300) }
-        &-2 { @include position(4, 457) }
-        &-3 { @include position(130, 358) }
+        &-1 { @include position(10, 350) }
+        &-2 { @include position(0, 500) }
+        &-3 { @include position(100, 400) }
         &-4 { @include position(280, 0) }
         &-5 { @include position(242, 703) }
         &-6 { @include position(470, 160) }
@@ -88,7 +88,7 @@ body {
         &-23 { @include position(1406, 542) }
         &-24 { @include position(1432, 178) }
         &-25 { @include position(1523, 106) }
-        &-26 { @include position(1665, 638) }
+        &-26 { @include position(1665, 705) }
         &-27 { @include position(1713, 58) }
         &-28 { @include position(1804, 722) }
         &-29 { @include position(1849, 512) }
@@ -160,13 +160,9 @@ body {
     }
 }
 
-@media (min-width:768px) and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1440px) {
     .background {
-        .character {
-            background-size: contain;
-        }
-
-        .decoration {
+        .decoration img {
             transform: scale($resize-ratio-md);
         }
     }
@@ -174,15 +170,7 @@ body {
 
 @media (max-width: 767.9px) {
     .background {
-        .character {
-            background-size: contain;
-
-            &.left {
-                background-position: top 100px left;
-            }
-        }
-
-        .decoration {
+        .decoration img {
             transform: scale($resize-ratio-sm);
         }
     }

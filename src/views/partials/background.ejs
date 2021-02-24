@@ -3,6 +3,8 @@
     <div class="character left fade-in"></div>
 
     <% for(var i = 1; i <= 30; i++) {%>
-        <img src="<%= require('../assets/images/decorations/decoration-' + i + '.png') %>" class="decoration decoration-<%= i %>" />
+        <div class="decoration decoration-<%= i %>">
+            <img src="<%= require('../assets/images/decorations/decoration-' + i + '.png') %>" />
+        </div>
     <% } %>
 </div>
