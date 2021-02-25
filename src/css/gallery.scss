@@ -59,23 +59,3 @@
         }
     }
 }
-
-@media (max-width: 1024px) {
-    .gallery {
-        .background {
-            .character.right {
-                background-position: bottom right;
-            }
-        }
-    }
-}
-
-@media (max-width: 440px) {
-    .gallery {
-        .title {
-            width: 100%;
-            max-width: unset;
-            min-width: unset;
-        }
-    }
-}
