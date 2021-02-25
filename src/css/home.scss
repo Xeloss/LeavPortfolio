@@ -1,9 +1,17 @@
 @use "sass:math";
 
-@function polarTranslation($radius, $degAngle) {
-    $x: $radius * math.cos($degAngle);
-    $y: $radius * math.sin($degAngle);
-    @return translate(#{$x}, #{$y});
+$button-width: 250px;
+$button-height: 250px;
+
+@mixin position($radius, $degAngle) {
+    $reference-width: 1110;
+    $reference-height: 732;
+
+    $left: $radius * math.cos($degAngle);
+    $top: $radius * math.sin($degAngle);
+
+    left: calc((#{$left} * 100% / #{$reference-width}) + 50% - #{$button-width / 2});
+    top: calc((#{$top} * 100% / #{$reference-height}) + 50% - #{$button-height / 2});
 }
 
 .home {
@@ -28,22 +36,39 @@
     position: relative;
 
     .button {
-        display: block;
+        display: flex;
         position: absolute;
-        left: calc(50% - 125px);
-        top: calc(50% - 125px);
-        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        width: $button-width;
+        height: $button-height;
+        text-align: center;
 
-        $distance: 90%;
+        $distance: 250;
         $startingAngle: -90deg;
+
+        a {
+            display: block;
+            max-width: $button-width;
+            max-height: $button-height;
+            width: calc(100vw / 7);
+            height: calc(100vh / 3);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+            transform: scale(0.9);
+        }
+
+        a:hover {
+            transform: scale(1);
+        }
 
         @for $i from 1 through 5 {
             &-#{$i} {
-                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.85);
-            }
-
-            &-#{$i}:hover {
-                transform: polarTranslation($distance, $startingAngle + (($i - 1) * 72deg)) scale(0.90);
+                @include position($distance, $startingAngle + (($i - 1) * 72deg));
+                a {
+                    background-image: url('../assets/images/main-menu-button-#{$i}.png');
+                }
             }
         }
     }
