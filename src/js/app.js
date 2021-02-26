@@ -5,13 +5,15 @@ import Gallery from './pages/gallery';
 import Art from './pages/art';
 import Contact from './pages/contact';
 import DefaultTransition from './transitions/defaultTransition';
+import Bio from './pages/bio';
 
 barba.init({
 	views: [
 		Home,
         Gallery,
         Art,
-        Contact
+        Contact,
+        Bio
     ],
     transitions: [DefaultTransition]
 });
