@@ -11,10 +11,13 @@ class Art {
     };
 
     registerEvents() {
-        var element = document.getElementById("art-img");
+        var element = document.getElementsByClassName("toggle-zoom")[0];
         element.addEventListener("click", ev => {
             ev.target.classList.toggle("full-size");
-        })
+        });
+        element.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
     }
 
     getArt() {
