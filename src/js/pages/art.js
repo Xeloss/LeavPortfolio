@@ -5,14 +5,21 @@ class Art {
 	namespace = 'art';
 
 	beforeEnter = data => {
-        this.registerHandlebarsHelpers();
         let art = this.getArt();
         this.renderTemplate(data.next.container, art);
+        this.registerEvents();
     };
 
-    registerHandlebarsHelpers() {
-
+    registerEvents() {
+        var element = document.getElementsByClassName("toggle-zoom")[0];
+        element.addEventListener("click", ev => {
+            ev.target.classList.toggle("full-size");
+        });
+        element.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
     }
+
     getArt() {
         let urlParams = new URLSearchParams(window.location.search);
         let artId = parseInt(urlParams.get("id"));

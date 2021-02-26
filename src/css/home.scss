@@ -10,8 +10,8 @@ $button-height: 250px;
     $left: $radius * math.cos($degAngle);
     $top: $radius * math.sin($degAngle);
 
-    left: calc((#{$left} * 100% / #{$reference-width}) + 50% - #{$button-width / 2});
-    top: calc((#{$top} * 100% / #{$reference-height}) + 50% - #{$button-height / 2});
+    left: calc((#{$left} * 100% / #{$reference-width}) + 50%);
+    top: calc((#{$top} * 100% / #{$reference-height}) + 50%);
 }
 
 .home {
@@ -45,30 +45,26 @@ $button-height: 250px;
         $distance: 250;
         $startingAngle: -90deg;
 
-        a {
-            display: block;
-            max-width: $button-width;
-            max-height: $button-height;
-            width: calc(100vw / 7);
-            height: calc(100vh / 3);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+        display: block;
+        max-width: $button-width;
+        max-height: $button-height;
+        width: calc(100vw / 7);
+        height: calc(100vh / 3);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
 
-            transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-            transform: scale(0.9);
-        }
+        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        transform: translate(-50%, -50%) scale(0.9);
 
-        a:hover {
-            transform: scale(1);
+        &:hover {
+            transform: translate(-50%, -50%) scale(1);
         }
 
         @for $i from 1 through 5 {
             &-#{$i} {
                 @include position($distance, $startingAngle + (($i - 1) * 72deg));
-                a {
-                    background-image: url('../assets/images/main-menu-button-#{$i}.png');
-                }
+                background-image: url('../assets/images/main-menu-button-#{$i}.png');
             }
         }
     }

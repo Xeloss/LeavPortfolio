@@ -4,9 +4,22 @@
         overflow: auto;
         justify-content: center;
 
-        a {
-            cursor: zoom-in;
+        .toggle-zoom {
             margin: auto 0;
+            cursor: zoom-in;
+
+            img {
+                max-height: calc(100vh - 20px);
+                pointer-events: none;
+            }
+        }
+
+        .toggle-zoom.full-size{
+            cursor: zoom-out;
+
+            img {
+                max-height: unset;
+            }
         }
     }
 

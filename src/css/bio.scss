@@ -1,0 +1,22 @@
+.bio {
+    .flex-column {
+        max-height: 100%;
+    }
+
+    .title {
+        width: calc(100vw * .6);
+        max-width: 1090px;
+    }
+
+    .character
+    {
+        padding: 50px 30px;
+
+        &.left {
+            background-image: url("../assets/images/bio-left-character.png");
+        }
+        &.right {
+            background-image: url("../assets/images/bio-right-character.png");
+        }
+    }
+}
