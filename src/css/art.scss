@@ -5,8 +5,16 @@
         justify-content: center;
 
         a {
-            cursor: zoom-in;
             margin: auto 0;
+            img {
+                cursor: zoom-in;
+                max-height: calc(100vh - 20px);
+            }
+        }
+
+        a img.full-size {
+            cursor: zoom-out;
+            max-height: unset;
         }
     }
 

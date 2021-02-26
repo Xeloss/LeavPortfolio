@@ -5,14 +5,18 @@ class Art {
 	namespace = 'art';
 
 	beforeEnter = data => {
-        this.registerHandlebarsHelpers();
         let art = this.getArt();
         this.renderTemplate(data.next.container, art);
+        this.registerEvents();
     };
 
-    registerHandlebarsHelpers() {
-
+    registerEvents() {
+        var element = document.getElementById("art-img");
+        element.addEventListener("click", ev => {
+            ev.target.classList.toggle("full-size");
+        })
     }
+
     getArt() {
         let urlParams = new URLSearchParams(window.location.search);
         let artId = parseInt(urlParams.get("id"));
