@@ -22,13 +22,14 @@ $button-height: 250px;
     }
 
     .character.left{
-        left: -120px;
+        // left: -120px;
         background-image: url("../assets/images/home-left-character.png");
     }
     .character.right{
         background-image: url("../assets/images/home-right-character.png");
-        top: 130px;
-        right: 25px;
+        z-index: 1;
+        // top: 130px;
+        // right: 25px;
     }
 }
 
