@@ -14,6 +14,11 @@ $resize-ratio-sm: .4;
     top: $top * 100% / $reference-height;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background: url(../assets/images/background.png);
 }
@@ -40,24 +45,38 @@ body {
     overflow: hidden;
     z-index: -100;
 
-    .character {
-        position: absolute;
-        background-repeat: no-repeat;
+    .characters-container
+    {
         width: 100%;
         height: 100%;
-        background-size: contain;
-        background-origin: content-box;
 
-        &.left {
-            left: 0;
-            background-position: center left;
-        }
+        // Sacar esto cuando esten las imagenes resized
+        padding-top: 30px;
+        padding-bottom: 30px;
 
-        &.right {
-            right: 0;
-            background-position: center right;
+        .character {
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 100%;
+
+            // Sacar esto cuando esten las imagenes resized
+            height: calc(100% - 60px);
+
+            background-size: contain;
+            background-origin: content-box;
+
+            &.left {
+                left: 0;
+                background-position: center left;
+            }
+
+            &.right {
+                right: 0;
+                background-position: center right;
+            }
         }
     }
+
 
     .decoration {
         position: absolute;
@@ -96,7 +115,15 @@ body {
     }
 }
 
-.overlay {
+.corners {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     .corner {
         max-width: $corner-width;
         max-height: $corner-height;

@@ -1,10 +1,14 @@
 <div class="background">
-    <div class="character right fade-in"></div>
-    <div class="character left fade-in"></div>
+    <div class="characters-container">
+        <div class="character right fade-in"></div>
+        <div class="character left fade-in"></div>
+    </div>
 
     <% for(var i = 1; i <= 30; i++) {%>
         <div class="decoration decoration-<%= i %>">
             <img src="<%= require('../assets/images/decorations/decoration-' + i + '.png') %>" />
         </div>
     <% } %>
+
+    <%- include corners -%>
 </div>

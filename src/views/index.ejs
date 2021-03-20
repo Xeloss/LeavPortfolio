@@ -5,6 +5,8 @@
 
     <body data-barba="wrapper">
         <main class="wrapper home" data-barba="container" data-barba-namespace="home">
+            <%- include partials/background -%>
+
             <div class="content container d-flex flex-column">
                 <div class="text-center">
                     <img class="title" src="<%= require('../assets/images/home-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
@@ -18,10 +20,8 @@
                 </div>
             </div>
 
-            <%- include partials/background -%>
         </main>
 
-        <%- include partials/overlay -%>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
     </body>

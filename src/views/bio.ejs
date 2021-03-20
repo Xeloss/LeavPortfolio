@@ -5,6 +5,9 @@
 
     <body data-barba="wrapper">
         <main class="wrapper bio" data-barba="container" data-barba-namespace="bio">
+
+            <%- include partials/background -%>
+
             <div class="content container">
 
                 <div class="d-flex flex-column">
@@ -21,10 +24,7 @@
                 </div>
             </div>
 
-            <%- include partials/background -%>
         </main>
-
-        <%- include partials/overlay -%>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
     </body>

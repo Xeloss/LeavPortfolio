@@ -5,6 +5,9 @@
 
     <body data-barba="wrapper">
         <main class="wrapper contact" data-barba="container" data-barba-namespace="gallery">
+
+            <%- include partials/background -%>
+
             <div class="content container">
 
                 <div class="d-flex flex-column">
@@ -36,10 +39,8 @@
                 </div>
             </div>
 
-            <%- include partials/contact-background -%>
-        </main>
 
-        <%- include partials/overlay -%>
+        </main>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
     </body>

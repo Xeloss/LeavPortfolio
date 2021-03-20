@@ -5,6 +5,9 @@
 
     <body data-barba="wrapper">
         <main class="wrapper art" data-barba="container" data-barba-namespace="art">
+
+            <%- include partials/corners -%>
+
             <div class="content container position-relative">
                 <div class="row">
                     <div class="col-12 art-container d-flex text-center">
@@ -21,8 +24,6 @@
                 </div>
             </div>
         </main>
-
-        <%- include partials/overlay -%>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
     </body>
