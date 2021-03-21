@@ -23,6 +23,16 @@ body {
     background: url(../assets/images/background.png);
 }
 
+.overflow{
+    &-hidden {
+        overflow: hidden;
+    }
+
+    &-auto {
+        overflow: auto;
+    }
+}
+
 .wrapper {
     position: relative;
     width: 100%;
