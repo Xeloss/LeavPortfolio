@@ -1,4 +1,5 @@
 @use "sass:math";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 $button-width: 250px;
 $button-height: 250px;
@@ -22,50 +23,71 @@ $button-height: 250px;
     }
 
     .character.left{
-        // left: -120px;
         background-image: url("../assets/images/home-left-character.png");
     }
     .character.right{
         background-image: url("../assets/images/home-right-character.png");
         z-index: 1;
-        // top: 130px;
-        // right: 25px;
     }
 }
 
 .main-menu {
-    position: relative;
+    @include media-breakpoint-up(lg) {
+        position: relative;
+    }
+
+    @include media-breakpoint-down(md){
+        @include make-row();
+    }
 
     .button {
-        display: flex;
-        position: absolute;
-        width: $button-width;
-        height: $button-height;
         text-align: center;
-
-        $distance: 250;
-        $startingAngle: -90deg;
-
-        display: block;
         max-width: $button-width;
         max-height: $button-height;
-        width: calc(100vw / 7);
-        height: calc(100vh / 3);
+        display: block;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-
         transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-        transform: translate(-50%, -50%) scale(0.9);
-
-        &:hover {
-            transform: translate(-50%, -50%) scale(1);
-        }
 
         @for $i from 1 through 5 {
             &-#{$i} {
-                @include position($distance, $startingAngle + (($i - 1) * 72deg));
                 background-image: url('../assets/images/main-menu-button-#{$i}.png');
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            position: absolute;
+            width: calc(100vw / 7);
+            height: calc(100vh / 3);
+
+            transform: translate(-50%, -50%) scale(0.9);
+            $distance: 250;
+            $startingAngle: -90deg;
+            @for $i from 1 through 5 {
+                &-#{$i} {
+                    @include position($distance, $startingAngle + (($i - 1) * 72deg));
+                }
+            }
+
+            &:hover {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+
+        @include media-breakpoint-only(lg) {
+            width: calc(100vw / 5);
+            height: calc(100vh / 3);
+        }
+
+        @include media-breakpoint-down(md){
+            @include make-col-ready();
+            @include make-col(6);
+
+            transform: scale(0.9);
+
+            &:hover {
+                transform: scale(1);
             }
         }
     }
