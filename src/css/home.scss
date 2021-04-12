@@ -17,9 +17,13 @@ $button-height: 250px;
 
 .home {
     .title {
-        width: calc(100vw * .5);
-        max-width: 750px;
-        min-width: 425px;
+        background-image: url("../assets/images/home-title.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        width: 100%;
+        height: calc(100vh * .25);
     }
 
     .character.left{
@@ -32,11 +36,11 @@ $button-height: 250px;
 }
 
 .main-menu {
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
         position: relative;
     }
 
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(sm){
         @include make-row();
     }
 
@@ -56,7 +60,7 @@ $button-height: 250px;
             }
         }
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(md) {
             position: absolute;
             width: calc(100vw / 7);
             height: calc(100vh / 3);
@@ -75,12 +79,12 @@ $button-height: 250px;
             }
         }
 
-        @include media-breakpoint-only(lg) {
+        @include media-breakpoint-only(md) {
             width: calc(100vw / 5);
             height: calc(100vh / 3);
         }
 
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(sm){
             @include make-col-ready();
             @include make-col(6);
 
