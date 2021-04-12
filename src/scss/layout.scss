@@ -46,6 +46,15 @@ body {
     padding-bottom: 25px;
 }
 
+.title {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: calc(100vh * .25);
+}
+
 .background {
     position: absolute;
     top: 0;
