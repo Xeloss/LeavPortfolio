@@ -105,29 +105,33 @@ html body {
         &-5 { @include position(210, 736) }
         &-6 { @include position(412, 210) }
         &-7 { @include position(448, 305) }
-        &-8 { @include position(485, 550) }
-        &-9 { @include position(430, 743) }
+        &-8 { @include position(470, 575) }
+        &-9 { @include position(510, 730) }
         &-10 { @include position(376, 746) }
-        &-11 { @include position(590, 750) }
-        &-12 { @include position(660, 675) }
-        &-13 { @include position(759, 230) }
-        &-14 { @include position(762, 855) }
-        &-15 { @include position(850, 470) }
-        &-16 { @include position(908, 825) }
-        &-17 { @include position(1083, 398) }
-        &-18 { @include position(1183, 300) }
-        &-19 { @include position(1203, 810) }
+        &-11 { @include position(590, 830) }
+        &-12 { @include position(640, 720) }
+        &-13 { @include position(720, 315) }
+        &-14 { @include position(762, 900) }
+        &-15 { @include position(870, 575) }
+        &-16 { @include position(865, 850) }
+        &-17 { @include position(1050, 445) }
+        &-18 { @include position(1165, 215) }
+        &-19 { @include position(1200, 850) }
         &-20 { @include position(1265, 647) }
         &-21 { @include position(1351, 478) }
-        &-22 { @include position(1312, 305) }
-        &-23 { @include position(1406, 542) }
-        &-24 { @include position(1432, 178) }
+        &-22 { @include position(1280, 300) }
+        &-23 { @include position(1385, 580) }
+        &-24 { @include position(1415, 100) }
         &-25 { @include position(1523, 106) }
-        &-26 { @include position(1665, 705) }
-        &-27 { @include position(1713, 58) }
-        &-28 { @include position(1804, 722) }
-        &-29 { @include position(1849, 512) }
-        &-30 { @include position(1875, 257) }
+        &-26 { @include position(1640, 750) }
+        &-27 { @include position(1700, 70) }
+        &-28 { @include position(1800, 742) }
+        &-29 { @include position(1780, 550) }
+        &-30 { @include position(1850, 350) }
+        &-31 { @include position(1290, 395) }
+        &-32 { @include position(1390, 800) }
+        &-33 { @include position(860, 230) }
+        &-34 { @include position(1765, 175) }
     }
 }
 
