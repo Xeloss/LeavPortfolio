@@ -124,10 +124,14 @@ html body {
         &-24 { @include position(1415, 100) }
         &-25 { @include position(1523, 106) }
         &-26 { @include position(1640, 750) }
-        &-27 { @include position(1713, 58) }
+        &-27 { @include position(1700, 70) }
         &-28 { @include position(1800, 742) }
         &-29 { @include position(1780, 550) }
         &-30 { @include position(1850, 350) }
+        &-31 { @include position(1290, 395) }
+        &-32 { @include position(1390, 800) }
+        &-33 { @include position(860, 230) }
+        &-34 { @include position(1765, 175) }
     }
 }
 
