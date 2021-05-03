@@ -12,38 +12,39 @@
 
                 <div class="d-flex flex-column">
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <img class="title" src="<%= require('../assets/images/contact-title.png') %>" alt="Leav Café - Ilustrator & Comic Artist" />
+                        <div class="col-12">
+                            <div class="title" title="Leav Café - Ilustrator & Comic Artist"></div>
                         </div>
                     </div>
 
                     <%- include partials/links -%>
 
-                    <div class="row text-center">
-                        <div class="col-12 my-5">
-                            <a href="mailto:leav77@gmail.com" target="_blank" title="Come on, don't be shy and send me an email">
-                                <img src="<%= require('../assets/images/email-address.png') %>" alt="leav77@gmail.com" />
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a class="link-button" href="https://twitter.com/leavcafe" target="_blank" title="Follow me on Twitter!">
-                                <img src="<%= require('../assets/images/twitter-link.png') %>" alt="Twitter - leavcafe" />
-                            </a>
+                    <div class="row flex-grow-1 justify-content-center overflow-auto">
+                        <div class="col-9 h-100">
+                            <div class="row text-center">
+                                <div class="col-12 my-5">
+                                    <a href="mailto:leav77@gmail.com" target="_blank" title="Come on, don't be shy and send me an email">
+                                        <img class="img-fluid" src="<%= require('../assets/images/email-address.png') %>" alt="leav77@gmail.com" />
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <a class="link-button" href="https://twitter.com/leavcafe" target="_blank" title="Follow me on Twitter!">
+                                        <img src="<%= require('../assets/images/twitter-link.png') %>" alt="Twitter - leavcafe" />
+                                    </a>
 
-                            <a class="link-button" href="https://www.instagram.com/leavcafe/" target="_blank" title="More awesome stuff on my Instagram">
-                                <img src="<%= require('../assets/images/instagram-link.png') %>" alt="Instagram - leavcafe" />
-                            </a>
+                                    <a class="link-button" href="https://www.instagram.com/leavcafe/" target="_blank" title="More awesome stuff on my Instagram">
+                                        <img src="<%= require('../assets/images/instagram-link.png') %>" alt="Instagram - leavcafe" />
+                                    </a>
 
-                            <a class="link-button" href="https://www.patreon.com/leavcafe" target="_blank" title="Support me on Patreon">
-                                <img src="<%= require('../assets/images/patreon-link.png') %>" alt="Patreon - leavcafe" />
-                            </a>
+                                    <a class="link-button" href="https://www.patreon.com/leavcafe" target="_blank" title="Support me on Patreon">
+                                        <img src="<%= require('../assets/images/patreon-link.png') %>" alt="Patreon - leavcafe" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
         </main>
 
         <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>

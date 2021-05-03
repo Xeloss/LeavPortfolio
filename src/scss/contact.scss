@@ -4,9 +4,8 @@
     }
 
     .title {
-        width: calc(100vw * .5);
-        max-width: 600px;
-        min-width: 425px;
+        background-image: url('../assets/images/contact-title.png');
+        height: calc(100vh * 0.3);
     }
 
     .character
