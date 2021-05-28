@@ -26,11 +26,17 @@ $button-height: 250px;
         height: calc(100vh * .25);
     }
 
-    .character.left{
+    .left-0 .character.left{
         background-image: url("../assets/images/home-left-character.png");
     }
-    .character.right{
+    .left-1 .character.left{
+        background-image: url("../assets/images/gallery-left-character.png");
+    }
+    .right-0 .character.right{
         background-image: url("../assets/images/home-right-character.png");
+    }
+    .right-1 .character.right{
+        background-image: url("../assets/images/gallery-right-character.png");
     }
 }
 
