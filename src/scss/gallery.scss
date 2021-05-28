@@ -4,8 +4,19 @@
     }
 
     .title {
-        background-image: url('../assets/images/section-title.png');
         height: calc(100vh * 0.2);
+
+        &.title-comic {
+            background-image: url('../assets/images/title-comics.png');
+        }
+
+        &.title-illustration {
+            background-image: url('../assets/images/title-ilustrations.png');
+        }
+
+        &.title-fanart {
+            background-image: url('../assets/images/title-fanarts.png');
+        }
     }
 
     .character

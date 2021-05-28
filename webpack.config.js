@@ -101,6 +101,21 @@ module.exports = (env, argv) => ({
 					},
 				],
 			},
+            {
+                test: /\.webmanifest$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]'
+                    }
+                  },
+                  {
+                    loader: 'webmanifest-loader',
+                    options: { }
+                  }
+                ]
+              },
 		],
 	},
 	plugins: [
