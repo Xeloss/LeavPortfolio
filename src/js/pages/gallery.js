@@ -8,8 +8,9 @@ class Gallery {
 	beforeEnter = data => {
         this.registerHandlebarsHelpers();
 
-        let artItems = artService.listByCategory(this.getCategory());
-        this.renderTemplate(data.next.container, artItems);
+        let category = this.getCategory();
+        let artItems = artService.listByCategory(category);
+        this.renderTemplate(data.next.container, category, artItems);
     };
 
     registerHandlebarsHelpers() {
@@ -35,9 +36,9 @@ class Gallery {
 
         return category;
     }
-    renderTemplate(container, artItems) {
+    renderTemplate(container, category, artItems) {
         let template = Handlebars.compile(container.innerHTML);
-        let html = template({ artItems });
+        let html = template({ category, artItems });
         container.innerHTML = html;
     }
 }

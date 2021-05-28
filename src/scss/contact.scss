@@ -27,4 +27,16 @@
             transform: scale(1)
         }
     }
+
+    .email-button{
+        display: block;
+        background-image: url('../assets/images/email-address.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &:hover{
+            background-image: url('../assets/images/email-address-hover.png');
+        }
+    }
 }
