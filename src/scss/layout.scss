@@ -182,6 +182,26 @@ html body {
     }
 }
 
+.nav-menu {
+
+    a:hover img {
+        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        transform: scale(1.1);
+    }
+
+    .link-bracket {
+        display: inline;
+
+        &.left {
+            margin-right: -50px;
+        }
+
+        &.right {
+            margin-left: -50px;
+        }
+    }
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
