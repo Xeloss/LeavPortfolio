@@ -14,6 +14,22 @@ class ArtService {
     isValidCategory(category) {
         return Object.entries(artCategories).some(kp => kp[1] === category);
     }
+
+    getNext(id)
+    {
+        let item = this.get(id);
+        let artsInCategory = artCollection.filter(a => a.category === item.category);
+        let nextIndex = artsInCategory.indexOf(item) + 1;
+        return artsInCategory[nextIndex] || null;
+    }
+
+    getPrevious(id)
+    {
+        let item = this.get(id);
+        let artsInCategory = artCollection.filter(a => a.category === item.category);
+        let nextIndex = artsInCategory.indexOf(item) - 1;
+        return artsInCategory[nextIndex] || null;
+    }
 }
 
 export default new ArtService()

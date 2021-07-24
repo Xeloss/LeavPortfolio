@@ -8,18 +8,40 @@
 
             <%- include partials/corners -%>
 
-            <div class="content container position-relative">
+            <div class="content container position-relative d-flex align-items-stretch">
                 <div class="row">
-                    <div class="col-12 art-container d-flex text-center">
-                        <div class="toggle-zoom">
-                            <img id="art-img" src="{{fullSize}}" alt="{{title}}" class="figure-img img-fluid" alt="Responsive image">
+                    <div class="col-7 art-column d-flex text-center">
+                        <div class="art-container">
+                            <img id="art-img" src="{{art.fullSize}}" alt="{{art.title}}" class="figure-img img-fluid" alt="Responsive image">
                         </div>
                     </div>
-                </div>
-                <div class="row art-info-container">
-                    <div class="col-12">
-                        <h5>{{title}}</h5>
-                        <p>{{description}}</p>
+
+                    <div class="col-5">
+                        <h1 class="display-4 art-title">{{art.title}}</h1>
+
+                        {{#if art.technicalDetails}}
+                        <h5 class="text-center">Technical Details</h5>
+                        <p class="text-center">
+                            {{art.technicalDetails}}
+                        </p>
+                        {{/if}}
+
+                        <h5 class="text-center">Description</h5>
+                        <p class="text-center">
+                            {{art.description}}
+                        </p>
+
+                        <div class="buttons-container text-center">
+                            <a class="arrow text-decoration-none" title="Previous art" href="art.html?id={{previousId}}">
+                                <img src="<%= require('../assets/images/art-previous-button.png') %>" alt="Previous art">
+                            </a>
+                            <a class="return text-decoration-none" title="Return to the gallery" href="gallery.html?category={{gallery}}">
+                                <img src="<%= require('../assets/images/art-return-button.png') %>" alt="Return to Gallery">
+                            </a>
+                            <a class="arrow text-decoration-none" title="Next art" href="art.html?id={{nextId}}">
+                                <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
