@@ -8,6 +8,12 @@
         height: calc(100vh * 0.2);
     }
 
+    @include media-breakpoint-down(sm) {
+        .title {
+            background-image: url('../assets/images/title-bio-small.png');
+        }
+    }
+
     .character
     {
         &.left {

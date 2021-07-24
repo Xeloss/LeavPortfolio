@@ -26,6 +26,12 @@ $button-height: 250px;
         height: calc(100vh * .25);
     }
 
+    @include media-breakpoint-down(sm) {
+        .title {
+            background-image: url("../assets/images/home-title-small.png");
+        }
+    }
+
     .left-0 .character.left{
         background-image: url("../assets/images/home-left-character-0.png");
     }

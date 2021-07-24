@@ -1,23 +1,31 @@
+@mixin title($sectionName) {
+
+    .title {
+        height: calc(100vh * 0.2);
+
+        &.title-#{$sectionName} {
+            background-image: url('../assets/images/title-#{$sectionName}.png');
+        }
+
+        @include media-breakpoint-down(sm) {
+            &.title-#{$sectionName} {
+                background-image: url('../assets/images/title-#{$sectionName}-small.png');
+            }
+        }
+    }
+
+}
+
 .gallery {
     .flex-column {
         height: 100%;
     }
 
-    .title {
-        height: calc(100vh * 0.2);
+    @include title("comic");
 
-        &.title-comic {
-            background-image: url('../assets/images/title-comics.png');
-        }
+    @include title("illustration");
 
-        &.title-illustration {
-            background-image: url('../assets/images/title-ilustrations.png');
-        }
-
-        &.title-fanart {
-            background-image: url('../assets/images/title-fanarts.png');
-        }
-    }
+    @include title("fanart");
 
     .thumbnail-list {
         overflow: auto;
