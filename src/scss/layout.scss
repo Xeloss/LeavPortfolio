@@ -17,6 +17,7 @@ $resize-ratio-sm: .4;
 html, body {
     height: 100%;
     width: 100%;
+    color: #3f1d1c;
 }
 
 html body {
@@ -189,10 +190,10 @@ html body {
 
     a img {
         transform: scale(1);
+        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     }
 
     a:hover img {
-        transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
         transform: scale(1.1);
     }
 

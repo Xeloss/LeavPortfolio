@@ -5,19 +5,26 @@ class Art {
 	namespace = 'art';
 
 	beforeEnter = data => {
+
         let art = this.getArt();
-        this.renderTemplate(data.next.container, art);
+        let model = {
+            art: art,
+            gallery: art.category,
+            nextId: artService.getNext(art.id)?.id,
+            previousId: artService.getPrevious(art.id)?.id
+        };
+        this.renderTemplate(data.next.container, model);
         this.registerEvents();
     };
 
     registerEvents() {
-        var element = document.getElementsByClassName("toggle-zoom")[0];
-        element.addEventListener("click", ev => {
-            ev.target.classList.toggle("full-size");
-        });
-        element.addEventListener("contextmenu", function(e){
-            e.preventDefault();
-        }, false);
+        // var element = document.getElementsByClassName("toggle-zoom")[0];
+        // element.addEventListener("click", ev => {
+        //     ev.target.classList.toggle("full-size");
+        // });
+        // element.addEventListener("contextmenu", function(e){
+        //     e.preventDefault();
+        // }, false);
     }
 
     getArt() {
@@ -25,9 +32,9 @@ class Art {
         let artId = parseInt(urlParams.get("id"));
         return artService.get(artId);
     }
-    renderTemplate(container, art) {
+    renderTemplate(container, model) {
         let template = Handlebars.compile(container.innerHTML);
-        let html = template(art);
+        let html = template(model);
         container.innerHTML = html;
     }
 }

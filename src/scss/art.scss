@@ -1,24 +1,22 @@
 .art {
-    .art-container {
+
+    .art-title {
+        border-bottom: 3px $body-color solid;
+        padding-bottom: 10px;
+    }
+
+    .art-column {
         height: 100vh;
         overflow: auto;
         justify-content: center;
 
-        .toggle-zoom {
+        .art-container {
             margin: auto 0;
             cursor: zoom-in;
 
             img {
                 max-height: calc(100vh - 20px);
                 pointer-events: none;
-            }
-        }
-
-        .toggle-zoom.full-size{
-            cursor: zoom-out;
-
-            img {
-                max-height: unset;
             }
         }
     }
@@ -30,5 +28,26 @@
             background-color: rgba(0, 0, 0, 0.7);
             color: white;
         }
+    }
+
+    .buttons-container {
+
+        .arrow img {
+            max-width: 20%;
+        }
+
+        .return img {
+            max-width: 60%;
+        }
+
+        a img {
+            transform: scale(1);
+            transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        }
+
+        a:hover img {
+            transform: scale(1.1);
+        }
+
     }
 }

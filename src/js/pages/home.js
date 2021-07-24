@@ -8,7 +8,6 @@ class Home {
         let characterPair = this.getCharacterPairNumber();
 
         this.renderTemplate(data.next.container, { left: characterPair, right: characterPair });
-        this.registerEvents();
     };
 
     renderTemplate(container, vm) {
