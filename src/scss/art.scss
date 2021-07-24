@@ -6,7 +6,7 @@
     }
 
     .art-column {
-        height: 100vh;
+        height: 100%;
         overflow: auto;
         justify-content: center;
 
@@ -31,6 +31,9 @@
     }
 
     .buttons-container {
+
+        position: absolute;
+        bottom: 0;
 
         .arrow img {
             max-width: 20%;
