@@ -8,6 +8,12 @@
         height: calc(100vh * 0.2);
     }
 
+    @include media-breakpoint-down(sm) {
+        .title {
+            background-image: url('../assets/images/title-bio-small.png');
+        }
+    }
+
     .character
     {
         &.left {
@@ -16,5 +22,16 @@
         &.right {
             background-image: url("../assets/images/bio-right-character.png");
         }
+    }
+
+    .text-shadow {
+        p {
+            text-shadow: 0 0 15px black;
+        }
+    }
+
+    .paragraph-separator {
+        display: inline;
+        max-height: 15vh;
     }
 }

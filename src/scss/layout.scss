@@ -84,15 +84,18 @@ html body {
             &.left {
                 left: 0;
                 background-position: center left;
+                -webkit-mask-image: linear-gradient(to right, black 20%, rgba(0, 0, 0, 0) 30%);
+                mask-image: linear-gradient(to right, black 20%, rgba(0, 0, 0, 0) 30%);
             }
 
             &.right {
                 right: 0;
                 background-position: center right;
+                -webkit-mask-image: linear-gradient(to left, black 20%, rgba(0, 0, 0, 0) 30%);
+                mask-image: linear-gradient(to left, black 20%, rgba(0, 0, 0, 0) 30%);
             }
         }
     }
-
 
     .decoration {
         position: absolute;
@@ -183,6 +186,10 @@ html body {
 }
 
 .nav-menu {
+
+    a img {
+        transform: scale(1);
+    }
 
     a:hover img {
         transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
