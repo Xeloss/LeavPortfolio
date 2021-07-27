@@ -7,11 +7,16 @@ class Art {
 	beforeEnter = data => {
 
         let art = this.getArt();
+        let previousId = artService.getPrevious(art.id)?.id;
+        let nextId = artService.getNext(art.id)?.id;
+
         let model = {
             art: art,
             gallery: art.category,
-            nextId: artService.getNext(art.id)?.id,
-            previousId: artService.getPrevious(art.id)?.id
+            nextHidden: !nextId,
+            nextId: nextId,
+            previousHidden: !previousId,
+            previousId: previousId
         };
         this.renderTemplate(data.next.container, model);
         this.registerEvents();
@@ -30,6 +35,9 @@ class Art {
     getArt() {
         let urlParams = new URLSearchParams(window.location.search);
         let artId = parseInt(urlParams.get("id"));
+        if(!artId)
+            artId = 1;
+
         return artService.get(artId);
     }
     renderTemplate(container, model) {

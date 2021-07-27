@@ -32,13 +32,17 @@
                         </p>
 
                         <div class="buttons-container text-center">
-                            <a class="arrow text-decoration-none" title="Previous art" href="art.html?id={{previousId}}">
+                            <a class="arrow text-decoration-none {{#if previousHidden}}invisible{{/if}}"
+                                title="Previous art"
+                                href="art.html?id={{previousId}}">
                                 <img src="<%= require('../assets/images/art-previous-button.png') %>" alt="Previous art">
                             </a>
                             <a class="return text-decoration-none" title="Return to the gallery" href="gallery.html?category={{gallery}}">
                                 <img src="<%= require('../assets/images/art-return-button.png') %>" alt="Return to Gallery">
                             </a>
-                            <a class="arrow text-decoration-none" title="Next art" href="art.html?id={{nextId}}">
+                            <a class="arrow text-decoration-none {{#if nextHidden}}invisible{{/if}}"
+                                title="Next art"
+                                href="art.html?id={{nextId}}">
                                 <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
                             </a>
                         </div>
