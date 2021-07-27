@@ -9,25 +9,28 @@
             <%- include partials/corners -%>
 
             <div class="content container position-relative d-flex align-items-stretch">
-                <div class="row">
+                <div class="row detail-view">
                     <div class="col-7 art-column d-flex text-center">
-                        <div class="art-container">
-                            <img id="art-img" src="{{art.fullSize}}" alt="{{art.title}}" class="figure-img img-fluid" alt="Responsive image">
+                        <div class="art-container toggle-zoom">
+                            <img id="art-img"
+                                src="{{art.fullSize}}"
+                                alt="{{art.title}}"
+                                class="figure-img img-fluid">
                         </div>
                     </div>
 
-                    <div class="col-5">
+                    <div class="col-5 hide-on-full-size">
                         <h1 class="display-4 art-title">{{art.title}}</h1>
 
                         {{#if art.technicalDetails}}
                         <h5 class="text-center">Technical Details</h5>
-                        <p class="text-center">
+                        <p class="text-center text-shadow">
                             {{art.technicalDetails}}
                         </p>
                         {{/if}}
 
                         <h5 class="text-center">Description</h5>
-                        <p class="text-center">
+                        <p class="text-center text-shadow">
                             {{art.description}}
                         </p>
 
@@ -48,6 +51,18 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row flex-grow-1 justify-content-center overflow-auto full-size-view d-none">
+                    <div class="col-12 art-column d-flex text-center">
+                        <div class="art-container toggle-zoom">
+                            <img id="art-img"
+                                src="{{art.fullSize}}"
+                                alt="{{art.title}}"
+                                class="figure-img img-fluid">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </main>
 

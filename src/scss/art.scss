@@ -7,7 +7,6 @@
 
     .art-column {
         height: 100%;
-        overflow: auto;
         justify-content: center;
 
         .art-container {
@@ -15,8 +14,15 @@
             cursor: zoom-in;
 
             img {
-                max-height: calc(100vh - 20px);
                 pointer-events: none;
+            }
+        }
+
+        .detail-view {
+            .art-container {
+                img {
+                    max-height: calc(100vh - 20px);
+                }
             }
         }
     }

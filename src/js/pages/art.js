@@ -19,17 +19,24 @@ class Art {
             previousId: previousId
         };
         this.renderTemplate(data.next.container, model);
-        this.registerEvents();
+        this.registerEvents(data.next.container);
     };
 
-    registerEvents() {
-        // var element = document.getElementsByClassName("toggle-zoom")[0];
-        // element.addEventListener("click", ev => {
-        //     ev.target.classList.toggle("full-size");
-        // });
-        // element.addEventListener("contextmenu", function(e){
-        //     e.preventDefault();
-        // }, false);
+    registerEvents(container) {
+        var toogleZoomElements = container.getElementsByClassName("toggle-zoom");
+
+        for (let i = 0; toogleZoomElements.length; i++) {
+            let element = toogleZoomElements[i];
+            element.addEventListener("click", ev => {
+                var detailView = container.getElementsByClassName("detail-view")[0];
+                var fullSizeView = container.getElementsByClassName("full-size-view")[0];
+                detailView.classList.toggle("d-none");
+                fullSizeView.classList.toggle("d-none");
+            });
+            element.addEventListener("contextmenu", function(e){
+                e.preventDefault();
+            }, false);
+        }
     }
 
     getArt() {
