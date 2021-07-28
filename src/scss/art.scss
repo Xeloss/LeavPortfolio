@@ -12,23 +12,25 @@
         .art-container {
             margin: auto 0;
             cursor: zoom-in;
-            max-height: 100%;
             overflow: hidden;
 
             img {
                 pointer-events: none;
-                max-height: 100%;
-            }
-        }
-
-        .detail-view {
-            .art-container {
-                img {
-                    max-height: calc(100vh - 20px);
-                }
             }
         }
     }
+
+    .detail-view {
+
+        .art-container {
+            max-height: 100%;
+
+            img {
+                max-height: calc(100vh - #{$container-padding-top} - #{$container-padding-bottom});
+            }
+        }
+    }
+
 
     .buttons-container {
 
