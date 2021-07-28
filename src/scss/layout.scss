@@ -6,6 +6,9 @@ $character-height: 100%;
 $resize-ratio-md: .6;
 $resize-ratio-sm: .4;
 
+$container-padding-top: 25px;
+$container-padding-bottom: 25px;
+
 @mixin position($left, $top) {
     $reference-width: 1920;
     $reference-height: 973;
@@ -44,8 +47,8 @@ html body {
 .container, .container-fluid {
     height: 100vh;
     overflow: hidden;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: $container-padding-top;
+    padding-bottom: $container-padding-bottom;
 }
 
 .title {
@@ -207,6 +210,20 @@ html body {
         &.right {
             margin-left: -50px;
         }
+    }
+}
+
+.text-shadow {
+    text-shadow: 0 0 15px black;
+}
+
+.flex-column {
+    max-height: 100%;
+}
+
+@include media-breakpoint-down(md){
+    .overflow-md-auto {
+        overflow: auto;
     }
 }
 

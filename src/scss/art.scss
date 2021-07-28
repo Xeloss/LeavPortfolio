@@ -7,40 +7,46 @@
 
     .art-column {
         height: 100%;
-        overflow: auto;
         justify-content: center;
 
         .art-container {
             margin: auto 0;
             cursor: zoom-in;
+            overflow: hidden;
 
             img {
-                max-height: calc(100vh - 20px);
                 pointer-events: none;
             }
         }
     }
 
-    .art-info-container {
-        position: absolute;
-        bottom: 0;
-        .col-12 {
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
+    .detail-view {
+
+        .art-container {
+            max-height: 100%;
+
+            img {
+                max-height: calc(100vh - #{$container-padding-top} - #{$container-padding-bottom});
+            }
         }
     }
 
+
     .buttons-container {
 
-        position: absolute;
-        bottom: 0;
-
-        .arrow img {
-            max-width: 20%;
+        .arrow {
+            max-width: 19%;
+        }
+        .return {
+            max-width: 59%;
         }
 
-        .return img {
-            max-width: 60%;
+        .arrow,
+        .return {
+            display: inline-block;
+            img {
+                max-width: 100%;
+            }
         }
 
         a img {

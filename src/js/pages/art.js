@@ -7,29 +7,44 @@ class Art {
 	beforeEnter = data => {
 
         let art = this.getArt();
+        let previousId = artService.getPrevious(art.id)?.id;
+        let nextId = artService.getNext(art.id)?.id;
+
         let model = {
             art: art,
             gallery: art.category,
-            nextId: artService.getNext(art.id)?.id,
-            previousId: artService.getPrevious(art.id)?.id
+            nextHidden: !nextId,
+            nextId: nextId,
+            previousHidden: !previousId,
+            previousId: previousId
         };
         this.renderTemplate(data.next.container, model);
-        this.registerEvents();
+        this.registerEvents(data.next.container);
     };
 
-    registerEvents() {
-        // var element = document.getElementsByClassName("toggle-zoom")[0];
-        // element.addEventListener("click", ev => {
-        //     ev.target.classList.toggle("full-size");
-        // });
-        // element.addEventListener("contextmenu", function(e){
-        //     e.preventDefault();
-        // }, false);
+    registerEvents(container) {
+        var toogleZoomElements = container.getElementsByClassName("toggle-zoom");
+
+        for (let i = 0; toogleZoomElements.length; i++) {
+            let element = toogleZoomElements[i];
+            element.addEventListener("click", ev => {
+                var detailView = container.getElementsByClassName("detail-view")[0];
+                var fullSizeView = container.getElementsByClassName("full-size-view")[0];
+                detailView.classList.toggle("d-none");
+                fullSizeView.classList.toggle("d-none");
+            });
+            element.addEventListener("contextmenu", function(e){
+                e.preventDefault();
+            }, false);
+        }
     }
 
     getArt() {
         let urlParams = new URLSearchParams(window.location.search);
         let artId = parseInt(urlParams.get("id"));
+        if(!artId)
+            artId = 1;
+
         return artService.get(artId);
     }
     renderTemplate(container, model) {
