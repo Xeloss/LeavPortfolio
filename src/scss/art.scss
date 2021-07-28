@@ -12,9 +12,12 @@
         .art-container {
             margin: auto 0;
             cursor: zoom-in;
+            max-height: 100%;
+            overflow: hidden;
 
             img {
                 pointer-events: none;
+                max-height: 100%;
             }
         }
 
