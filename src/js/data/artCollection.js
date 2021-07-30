@@ -214,6 +214,6 @@ comics.forEach(i => i.category = artCategories.comics);
 fanarts.forEach(i => i.category = artCategories.fanarts);
 
 let collection = [...illustrations, ...comics, ...fanarts];
-collection.forEach((i, index) => i.id = index);
+collection.forEach((i, index) => i.id = index + 1);
 
 export default collection;

@@ -6,7 +6,7 @@ class Art {
 
 	beforeEnter = data => {
 
-        let art = this.getArt();
+        let art = this.loadArt();
         let previousId = artService.getPrevious(art.id)?.id;
         let nextId = artService.getNext(art.id)?.id;
 
@@ -39,13 +39,19 @@ class Art {
         }
     }
 
-    getArt() {
+    loadArt() {
         let urlParams = new URLSearchParams(window.location.search);
         let artId = parseInt(urlParams.get("id"));
-        if(!artId)
+        if(!artId){
             artId = 1;
+        }
 
-        return artService.get(artId);
+        let art = artService.get(artId);
+        if(!art) {
+            return artService.get(1);
+        }
+
+        return art;
     }
     renderTemplate(container, model) {
         let template = Handlebars.compile(container.innerHTML);
