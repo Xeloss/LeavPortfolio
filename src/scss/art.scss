@@ -12,32 +12,14 @@
         .art-container {
             margin: auto 0;
             overflow: hidden;
+            max-height: 100%;
 
             img {
                 pointer-events: none;
-            }
-        }
-    }
-
-    .detail-view {
-
-        .art-container {
-            max-height: 100%;
-            cursor: zoom-in;
-
-            img {
                 max-height: calc(100vh - #{$container-padding-top} - #{$container-padding-bottom});
             }
         }
     }
-
-    .full-size-view {
-
-        .art-container {
-            cursor: zoom-out;
-        }
-    }
-
 
     .buttons-container {
 
@@ -64,6 +46,14 @@
         a:hover img {
             transform: scale(1.1);
         }
+    }
 
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        overflow: hidden;
     }
 }

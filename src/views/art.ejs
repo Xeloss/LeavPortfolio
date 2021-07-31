@@ -12,11 +12,28 @@
 
                 <div class="row h-100 justify-content-center overflow-md-auto detail-view">
                     <div class="col-md-6 art-column d-flex text-center">
-                        <div class="art-container toggle-zoom">
-                            <img id="art-img"
-                                src="{{art.fullSize}}"
-                                alt="{{art.title}}"
-                                class="figure-img img-fluid">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper-container mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="{{art.fullSize}}" alt="{{art.title}}" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="{{art.fullSize}}" alt="{{art.title}}" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="{{art.fullSize}}" alt="{{art.title}}" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-5 d-flex flex-column">
@@ -53,17 +70,6 @@
                                     <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row h-100 justify-content-center overflow-auto full-size-view d-none">
-                    <div class="col-12 art-column d-flex text-center">
-                        <div class="art-container toggle-zoom">
-                            <img id="art-img"
-                                src="{{art.fullSize}}"
-                                alt="{{art.title}}"
-                                class="figure-img img-fluid">
                         </div>
                     </div>
                 </div>

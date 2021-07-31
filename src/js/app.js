@@ -6,6 +6,7 @@ import Art from './pages/art';
 import Contact from './pages/contact';
 import DefaultTransition from './transitions/defaultTransition';
 import Bio from './pages/bio';
+import SwiperCore, { Zoom, Navigation, Pagination } from 'swiper/core';
 
 barba.init({
 	views: [
@@ -17,3 +18,9 @@ barba.init({
     ],
     transitions: [DefaultTransition]
 });
+
+SwiperCore.use([
+    Navigation,
+    Pagination,
+    Zoom
+]);

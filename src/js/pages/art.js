@@ -1,8 +1,10 @@
 import artService from '../services/artService';
 import Handlebars from 'handlebars';
+import Swiper from 'swiper';
 
 class Art {
 	namespace = 'art';
+    swiper = null;
 
 	beforeEnter = data => {
 
@@ -20,12 +22,13 @@ class Art {
         };
         this.renderTemplate(data.next.container, model);
         this.registerEvents(data.next.container);
+        this.initSwiper();
     };
 
     registerEvents(container) {
         var toogleZoomElements = container.getElementsByClassName("toggle-zoom");
 
-        for (let i = 0; toogleZoomElements.length; i++) {
+        for (let i = 0; i < toogleZoomElements.length; i++) {
             let element = toogleZoomElements[i];
             element.addEventListener("click", ev => {
                 var detailView = container.getElementsByClassName("detail-view")[0];
@@ -57,6 +60,19 @@ class Art {
         let template = Handlebars.compile(container.innerHTML);
         let html = template(model);
         container.innerHTML = html;
+    }
+    initSwiper(){
+        this.swiper = new Swiper('.swiper-container', {
+            zoom: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
     }
 }
 

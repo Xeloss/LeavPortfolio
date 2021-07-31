@@ -47,6 +47,7 @@
     "handlebars": "^4.7.6",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
+    "swiper": "^6.8.0",
     "webmanifest-loader": "^0.3.0"
   }
 }
