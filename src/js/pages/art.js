@@ -71,8 +71,17 @@ class Art {
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            on: {
+                zoomChange: (swiper, scale) => this.onZoomChanged(swiper, scale)
             }
         });
+    }
+
+    onZoomChanged(swiper, scale){
+        swiper.allowSlideNext = scale === 1;
+        swiper.allowSlidePrev = scale === 1;
+        swiper.allowTouchMove = scale === 1;
     }
 }
 
