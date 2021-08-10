@@ -1,14 +1,14 @@
-import _arte4479acac5144f44b4e033263701b5b3_ from "../../assets/art/art2.jpg";
-import _art7e250008d268439795be8dcd267c42b5_ from "../../assets/art/wallhaven-dgy9po.png";
-import _art567b4a7d6f824db3b1836d252014cdf5_ from "../../assets/art/art3.jpg";
-import _artd77ea8a64a334f4aaaffceba9657bae6_ from "../../assets/art/art5.jpg";
-import _art20ca91256a17499696818dbeda483abb_ from "../../assets/art/art8.jpg";
-import _arte8ca85c4df74421f987af53493f34471_ from "../../assets/art/art11.jpg";
-import _art9839afc0c7a7483aa2e71fa848fc55ad_ from "../../assets/art/art9.jpg";
-import _artd066ab59fbf745bfa99871b1e3377063_ from "../../assets/art/art10.jpg";
-import _arta63ee9bb21524fef9504ec575e78f0a7_ from "../../assets/art/art13.jpg";
-import _art0e6a731b7446426a9bf7f9597e682fc7_ from "../../assets/art/art12.jpg";
-import _art6fab5e5c4aae48e19fdf0d0a174e6816_ from "../../assets/art/art1.jpg";
+import _art4ed74d95eae34bd298b81017ff89ba11_ from "../../assets/art/art2.jpg";
+import _art5266979827a141248de3c1c56ae78788_ from "../../assets/art/wallhaven-dgy9po.png";
+import _arte9a0339d54cf42ac844c9f89055bc291_ from "../../assets/art/art3.jpg";
+import _artd0fb42d304f64ceab73303f06d553319_ from "../../assets/art/art5.jpg";
+import _artab894ec64aec419ca559332fde958030_ from "../../assets/art/art8.jpg";
+import _arte54366ccb6b74aa5bcb702b10694b93a_ from "../../assets/art/art11.jpg";
+import _art85fe67aa3ee44dbc8ebedea82c473d6f_ from "../../assets/art/art9.jpg";
+import _art29a7e5b9f77f4907aca53acb53354bce_ from "../../assets/art/art10.jpg";
+import _artab570bde88124a75b19d93b9d8dbb6e2_ from "../../assets/art/art13.jpg";
+import _artc58dfff4dd994ebab2e74441d306837c_ from "../../assets/art/art12.jpg";
+import _art12d5b01951694c669caaec2ac38084d0_ from "../../assets/art/art1.jpg";
 
 let collection = [
   {
@@ -17,10 +17,10 @@ let collection = [
     "title": "Congos",
     "description": "Imagenes de los congos y un mensaje social",
     "technicalDetails": null,
-    "thumbnail": _arte4479acac5144f44b4e033263701b5b3_,
+    "thumbnail": _art4ed74d95eae34bd298b81017ff89ba11_,
     "images": [
-      _arte4479acac5144f44b4e033263701b5b3_,
-      _art7e250008d268439795be8dcd267c42b5_
+      _art4ed74d95eae34bd298b81017ff89ba11_,
+      _art5266979827a141248de3c1c56ae78788_
     ]
   },
   {
@@ -29,9 +29,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _arte4479acac5144f44b4e033263701b5b3_,
+    "thumbnail": _art4ed74d95eae34bd298b81017ff89ba11_,
     "images": [
-      _arte4479acac5144f44b4e033263701b5b3_
+      _art4ed74d95eae34bd298b81017ff89ba11_
     ]
   },
   {
@@ -40,11 +40,11 @@ let collection = [
     "title": "Moiras",
     "description": "Esta son las tres moiras",
     "technicalDetails": null,
-    "thumbnail": _art567b4a7d6f824db3b1836d252014cdf5_,
+    "thumbnail": _arte9a0339d54cf42ac844c9f89055bc291_,
     "images": [
-      _art567b4a7d6f824db3b1836d252014cdf5_,
-      _artd77ea8a64a334f4aaaffceba9657bae6_,
-      _arte4479acac5144f44b4e033263701b5b3_
+      _arte9a0339d54cf42ac844c9f89055bc291_,
+      _artd0fb42d304f64ceab73303f06d553319_,
+      _art4ed74d95eae34bd298b81017ff89ba11_
     ]
   },
   {
@@ -53,10 +53,10 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art20ca91256a17499696818dbeda483abb_,
+    "thumbnail": _artab894ec64aec419ca559332fde958030_,
     "images": [
-      _art20ca91256a17499696818dbeda483abb_,
-      _arte8ca85c4df74421f987af53493f34471_
+      _artab894ec64aec419ca559332fde958030_,
+      _arte54366ccb6b74aa5bcb702b10694b93a_
     ]
   },
   {
@@ -65,9 +65,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art9839afc0c7a7483aa2e71fa848fc55ad_,
+    "thumbnail": _art85fe67aa3ee44dbc8ebedea82c473d6f_,
     "images": [
-      _art9839afc0c7a7483aa2e71fa848fc55ad_
+      _art85fe67aa3ee44dbc8ebedea82c473d6f_
     ]
   },
   {
@@ -76,11 +76,11 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _artd066ab59fbf745bfa99871b1e3377063_,
+    "thumbnail": _art29a7e5b9f77f4907aca53acb53354bce_,
     "images": [
-      _artd066ab59fbf745bfa99871b1e3377063_,
-      _arta63ee9bb21524fef9504ec575e78f0a7_,
-      _art567b4a7d6f824db3b1836d252014cdf5_
+      _art29a7e5b9f77f4907aca53acb53354bce_,
+      _artab570bde88124a75b19d93b9d8dbb6e2_,
+      _arte9a0339d54cf42ac844c9f89055bc291_
     ]
   },
   {
@@ -89,9 +89,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _arte8ca85c4df74421f987af53493f34471_,
+    "thumbnail": _arte54366ccb6b74aa5bcb702b10694b93a_,
     "images": [
-      _arte8ca85c4df74421f987af53493f34471_
+      _arte54366ccb6b74aa5bcb702b10694b93a_
     ]
   },
   {
@@ -100,9 +100,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art0e6a731b7446426a9bf7f9597e682fc7_,
+    "thumbnail": _artc58dfff4dd994ebab2e74441d306837c_,
     "images": [
-      _art0e6a731b7446426a9bf7f9597e682fc7_
+      _artc58dfff4dd994ebab2e74441d306837c_
     ]
   },
   {
@@ -111,10 +111,10 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _arta63ee9bb21524fef9504ec575e78f0a7_,
+    "thumbnail": _artab570bde88124a75b19d93b9d8dbb6e2_,
     "images": [
-      _arta63ee9bb21524fef9504ec575e78f0a7_,
-      _art6fab5e5c4aae48e19fdf0d0a174e6816_
+      _artab570bde88124a75b19d93b9d8dbb6e2_,
+      _art12d5b01951694c669caaec2ac38084d0_
     ]
   },
   {
@@ -123,9 +123,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art567b4a7d6f824db3b1836d252014cdf5_,
+    "thumbnail": _arte9a0339d54cf42ac844c9f89055bc291_,
     "images": [
-      _art567b4a7d6f824db3b1836d252014cdf5_
+      _arte9a0339d54cf42ac844c9f89055bc291_
     ]
   },
   {
@@ -134,10 +134,10 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art20ca91256a17499696818dbeda483abb_,
+    "thumbnail": _artab894ec64aec419ca559332fde958030_,
     "images": [
-      _art20ca91256a17499696818dbeda483abb_,
-      _artd066ab59fbf745bfa99871b1e3377063_
+      _artab894ec64aec419ca559332fde958030_,
+      _art29a7e5b9f77f4907aca53acb53354bce_
     ]
   },
   {
@@ -146,9 +146,9 @@ let collection = [
     "title": "Test Images",
     "description": "dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
     "technicalDetails": null,
-    "thumbnail": _art9839afc0c7a7483aa2e71fa848fc55ad_,
+    "thumbnail": _art85fe67aa3ee44dbc8ebedea82c473d6f_,
     "images": [
-      _art9839afc0c7a7483aa2e71fa848fc55ad_
+      _art85fe67aa3ee44dbc8ebedea82c473d6f_
     ]
   }
 ];
