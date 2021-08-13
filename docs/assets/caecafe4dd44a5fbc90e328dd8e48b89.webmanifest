@@ -1,0 +1,19 @@
+{
+  "name": "Leav Cafe's Portfolio",
+  "short_name": "Leav Cafe",
+  "icons": [
+    {
+      "src": "assets/images/c191ffd08a02a5a78a691dd6ddbae201.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/4830c1a5f79995a13f155780d88fa3f0.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
