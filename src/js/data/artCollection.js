@@ -1,8 +1,9 @@
-import _arte7c9e7754124455695e49076e393881a_ from "../../assets/art/b71b1691656c5e2c153e51d46c3d82c5.jpg";
-import _artbd860725d6c749e49e8060ca61522777_ from "../../assets/art/abduction-of-the-alebrije.jpg";
-import _art2d56400bbb7a40c3a70413b4e5a88379_ from "../../assets/art/abduction-of-the-alebrije-LINEART.jpg";
-import _art20d7a6a19cfd4db3822c77c81f42fcdf_ from "../../assets/art/aalebrije.jpg";
-import _art17f041f7eedb4c95830e15e12825838e_ from "../../assets/art/9a7d5b1f134cc42ad96604b3024dfdf3.jpg";
+import _art43ac9cb6801b4ac39c5b9b6d9e1ccb2c_ from "../../assets/art/b71b1691656c5e2c153e51d46c3d82c5.jpg";
+import _art72dc5255615d4df9b301ea3c62258d77_ from "../../assets/art/abduction-of-the-alebrije.jpg";
+import _art9c3be429dff24802a9decb07b7054dfb_ from "../../assets/art/abduction-of-the-alebrije-LINEART.jpg";
+import _artc9ff64845eee4ba99f034c2cd6af55a7_ from "../../assets/art/aalebrije.jpg";
+import _art570762d1023d4b7ca150ab0cef10e58f_ from "../../assets/art/9a7d5b1f134cc42ad96604b3024dfdf3.jpg";
+import _art3c750bc8101348d082936759e3e77545_ from "../../assets/art/il_794xN.2092799406_r8lz.jpg";
 
 let collection = [
   {
@@ -11,9 +12,9 @@ let collection = [
     "title": "Would you like to repeat?",
     "description": "Comic de prueba",
     "technicalDetails": null,
-    "thumbnail": _arte7c9e7754124455695e49076e393881a_,
+    "thumbnail": _art43ac9cb6801b4ac39c5b9b6d9e1ccb2c_,
     "images": [
-      _arte7c9e7754124455695e49076e393881a_
+      _art43ac9cb6801b4ac39c5b9b6d9e1ccb2c_
     ]
   },
   {
@@ -22,11 +23,11 @@ let collection = [
     "title": "Abduction of the alebrije",
     "description": "Ilustración de prueba",
     "technicalDetails": null,
-    "thumbnail": _artbd860725d6c749e49e8060ca61522777_,
+    "thumbnail": _art72dc5255615d4df9b301ea3c62258d77_,
     "images": [
-      _artbd860725d6c749e49e8060ca61522777_,
-      _art2d56400bbb7a40c3a70413b4e5a88379_,
-      _art20d7a6a19cfd4db3822c77c81f42fcdf_
+      _art72dc5255615d4df9b301ea3c62258d77_,
+      _art9c3be429dff24802a9decb07b7054dfb_,
+      _artc9ff64845eee4ba99f034c2cd6af55a7_
     ]
   },
   {
@@ -35,9 +36,20 @@ let collection = [
     "title": "Legendary trio",
     "description": "Fanart de prueba",
     "technicalDetails": null,
-    "thumbnail": _art17f041f7eedb4c95830e15e12825838e_,
+    "thumbnail": _art570762d1023d4b7ca150ab0cef10e58f_,
     "images": [
-      _art17f041f7eedb4c95830e15e12825838e_
+      _art570762d1023d4b7ca150ab0cef10e58f_
+    ]
+  },
+  {
+    "id": 4,
+    "category": "comic",
+    "title": "dragon king",
+    "description": "pruebe",
+    "technicalDetails": "prueba",
+    "thumbnail": _art3c750bc8101348d082936759e3e77545_,
+    "images": [
+      _art3c750bc8101348d082936759e3e77545_
     ]
   }
 ];
