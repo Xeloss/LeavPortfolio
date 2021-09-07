@@ -51,6 +51,12 @@
         .swiper-button-prev {
             text-shadow: 0 0 5px black, 0 0 5px black;
         }
+
+        .swiper-pagination {
+            .swiper-pagination-bullet{
+                box-shadow: 0 0 5px black;
+            }
+        }
     }
 
     .swiper-slide {
