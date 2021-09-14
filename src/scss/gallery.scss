@@ -1,4 +1,4 @@
-@mixin title($sectionName) {
+@mixin gallery($sectionName) {
 
     .title {
         height: calc(100vh * 0.2);
@@ -14,6 +14,12 @@
         }
     }
 
+    .gallery-#{$sectionName} {
+        .link-#{$sectionName} {
+            display: none;
+        }
+    }
+
 }
 
 .gallery {
@@ -21,11 +27,11 @@
         height: 100%;
     }
 
-    @include title("comic");
+    @include gallery("comic");
 
-    @include title("illustration");
+    @include gallery("illustration");
 
-    @include title("fanart");
+    @include gallery("fanart");
 
     .thumbnail-list {
         overflow: auto;

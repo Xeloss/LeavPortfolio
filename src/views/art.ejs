@@ -31,7 +31,12 @@
                     <div class="col-xl-3 col-lg-4 col-md-5 d-flex flex-column">
                         <div class="row flex-grow-1">
                             <div class="col-12">
-                                <h1 class="display-4 art-title">{{art.title}}</h1>
+                                <h1 class="art-title">{{art.title}}</h1>
+
+                                <h5 class="text-center">Description</h5>
+                                <p class="text-center text-shadow">
+                                    {{art.description}}
+                                </p>
 
                                 {{#if art.technicalDetails}}
                                 <h5 class="text-center">Technical Details</h5>
@@ -39,11 +44,6 @@
                                     {{art.technicalDetails}}
                                 </p>
                                 {{/if}}
-
-                                <h5 class="text-center">Description</h5>
-                                <p class="text-center text-shadow">
-                                    {{art.description}}
-                                </p>
                             </div>
                         </div>
                         <div class="row">
