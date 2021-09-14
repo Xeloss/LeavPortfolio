@@ -19,6 +19,17 @@ barba.init({
     transitions: [DefaultTransition]
 });
 
+barba.hooks.after(() => {
+    try
+    {
+        ga('set', 'page', window.location.pathname);
+        ga('send', 'pageview');
+    }
+    catch{
+        console.info("Analytics is not loaded");
+    }
+  });
+
 SwiperCore.use([
     Navigation,
     Pagination,
