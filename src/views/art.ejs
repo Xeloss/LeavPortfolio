@@ -29,21 +29,26 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-5 d-flex flex-column">
-                        <div class="row flex-grow-1">
+                        <div class="row flex-grow-1 min-h-0 overflow-auto">
                             <div class="col-12">
                                 <h1 class="art-title">{{art.title}}</h1>
 
-                                <h5 class="text-center">Description</h5>
-                                <p class="text-center text-shadow">
-                                    {{art.description}}
-                                </p>
+                                <div class="row">
+                                    <div class="col-12">
 
-                                {{#if art.technicalDetails}}
-                                <h5 class="text-center">Technical Details</h5>
-                                <p class="text-center text-shadow">
-                                    {{art.technicalDetails}}
-                                </p>
-                                {{/if}}
+                                        <h5 class="text-center">Description</h5>
+                                        <p class="text-center text-shadow">
+                                            {{art.description}}
+                                        </p>
+
+                                        {{#if art.technicalDetails}}
+                                        <h5 class="text-center">Technical Details</h5>
+                                        <p class="text-center text-shadow">
+                                            {{art.technicalDetails}}
+                                        </p>
+                                        {{/if}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
