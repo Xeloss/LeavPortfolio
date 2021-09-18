@@ -50,7 +50,7 @@ module.exports = (env, argv) => ({
 				},
             },
             {
-                test: /\.(gif|png|jpe?g|svg|ico)$/i,
+                test: /\.(gif|png|jpe?g|ico)$/i,
                 use: [{
                         loader: 'file-loader',
                         options: {
@@ -102,7 +102,7 @@ module.exports = (env, argv) => ({
 				],
 			},
             {
-                test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+                test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                 use: [
                   {
                     loader: 'file-loader',

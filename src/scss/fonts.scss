@@ -1,25 +1,25 @@
-// @font-face {
-//     font-family: 'BellMT', sans-serif;
-//     src: url('../assets/fonts/BELL.ttf') format('truetype');
-//     font-style: normal;
-//     font-weight: normal;
-// }
-@font-face{
-    font-family:"BellMT";
-    src:url("https://www.dafontfree.net/data/13/b/64473/BELL.TTF") format("woff"),
-        url("https://www.dafontfree.net/data/13/b/64473/BELL.TTF") format("opentype"),
-        url("https://www.dafontfree.net/data/13/b/64473/BELL.TTF") format("truetype");
+@font-face {
+    font-family: 'BellMT';
+    src: url('../assets/fonts/BellMT.eot');
+    src: url('../assets/fonts/BellMT.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/BellMT.woff2') format('woff2'),
+        url('../assets/fonts/BellMT.woff') format('woff'),
+        url('../assets/fonts/BellMT.ttf') format('truetype'),
+        url('../assets/fonts/BellMT.svg#BellMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'BellMT', sans-serif;
+    font-family: BellMT;
     src: url('../assets/fonts/BELLB_0.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: 'BellMT', sans-serif;
+    font-family: BellMT;
     src: url('../assets/fonts/BELLI_0.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
