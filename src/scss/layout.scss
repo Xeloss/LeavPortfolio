@@ -285,3 +285,11 @@ html body {
         }
     }
 }
+
+@media (max-height: 500px) {
+    .nav-menu {
+        .link-bracket{
+            display: none !important;
+        }
+    }
+}

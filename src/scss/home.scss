@@ -24,13 +24,16 @@ $button-height: 250px;
 
         width: 100%;
         height: calc(100vh * .25);
-    }
+        min-height: 100px;
 
-    @include media-breakpoint-down(sm) {
-        .title {
+        @include media-breakpoint-down(sm) {
+            background-image: url("../assets/images/home-title-small.png");
+        }
+        @media (max-height: 500px) {
             background-image: url("../assets/images/home-title-small.png");
         }
     }
+
 
     .left-0 .character.left{
         background-image: url("../assets/images/home-left-character-0.png");
