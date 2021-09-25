@@ -2,13 +2,16 @@
 
     .title {
         height: calc(100vh * 0.2);
+        min-height: 100px;
 
         &.title-#{$sectionName} {
             background-image: url('../assets/images/title-#{$sectionName}.png');
-        }
 
-        @include media-breakpoint-down(sm) {
-            &.title-#{$sectionName} {
+            @include media-breakpoint-down(sm) {
+                background-image: url('../assets/images/title-#{$sectionName}-small.png');
+            }
+
+            @media (max-height: 500px) {
                 background-image: url('../assets/images/title-#{$sectionName}-small.png');
             }
         }

@@ -51,21 +51,29 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 buttons-container text-center mt-4">
-                                <a class="arrow text-decoration-none {{#if previousHidden}}invisible{{/if}}"
-                                    title="Previous art"
-                                    href="art.html?id={{previousId}}">
-                                    <img src="<%= require('../assets/images/art-previous-button.png') %>" alt="Previous art">
-                                </a>
-                                <a class="return text-decoration-none" title="Return to the gallery" href="gallery.html?category={{gallery}}">
-                                    <img src="<%= require('../assets/images/art-return-button.png') %>" alt="Return to Gallery">
-                                </a>
-                                <a class="arrow text-decoration-none {{#if nextHidden}}invisible{{/if}}"
-                                    title="Next art"
-                                    href="art.html?id={{nextId}}">
-                                    <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
-                                </a>
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 col-10 buttons-container mt-4 d-flex justify-content-around">
+                                <div class="text-center">
+                                    <!-- {{#if previousHidden}}invisible{{/if}} -->
+                                    <a class="arrow text-decoration-none "
+                                        title="Previous art"
+                                        href="art.html?id={{previousId}}">
+                                        <img src="<%= require('../assets/images/art-previous-button.png') %>" alt="Previous art">
+                                    </a>
+                                </div>
+                                <div class="text-center flex-grow-2">
+                                    <a class="return text-decoration-none" title="Return to the gallery" href="gallery.html?category={{gallery}}">
+                                        <img src="<%= require('../assets/images/art-return-button.png') %>" alt="Return to Gallery">
+                                    </a>
+                                </div>
+                                <div class="text-center">
+                                    <!-- {{#if nextHidden}}invisible{{/if}} -->
+                                    <a class="arrow text-decoration-none "
+                                        title="Next art"
+                                        href="art.html?id={{nextId}}">
+                                        <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
