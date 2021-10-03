@@ -54,8 +54,7 @@
                         <div class="row justify-content-center">
                             <div class="col-md-12 col-10 buttons-container mt-4 d-flex justify-content-around">
                                 <div class="text-center">
-                                    <!-- {{#if previousHidden}}invisible{{/if}} -->
-                                    <a class="arrow text-decoration-none "
+                                    <a class="arrow text-decoration-none {{#if previousHidden}}invisible{{/if}}"
                                         title="Previous art"
                                         href="art.html?id={{previousId}}">
                                         <img src="<%= require('../assets/images/art-previous-button.png') %>" alt="Previous art">
@@ -67,8 +66,7 @@
                                     </a>
                                 </div>
                                 <div class="text-center">
-                                    <!-- {{#if nextHidden}}invisible{{/if}} -->
-                                    <a class="arrow text-decoration-none "
+                                    <a class="arrow text-decoration-none {{#if nextHidden}}invisible{{/if}}"
                                         title="Next art"
                                         href="art.html?id={{nextId}}">
                                         <img src="<%= require('../assets/images/art-next-button.png') %>" alt="Next art">
