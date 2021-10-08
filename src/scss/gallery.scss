@@ -45,6 +45,9 @@
             position: relative;
             cursor: pointer;
             display: block;
+            box-shadow: 0 0 8px black;
+            border: 3px #f6f4e4 solid;
+            border-radius: 4px;
 
             .thumbnail-overlay {
                 transition: all 0.3s;
