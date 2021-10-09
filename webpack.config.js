@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (env, argv) => ({
 	mode: argv.mode,
@@ -129,7 +130,7 @@ module.exports = (env, argv) => ({
                     options: { }
                   }
                 ]
-              },
+            }
 		],
 	},
 	plugins: [
@@ -138,6 +139,12 @@ module.exports = (env, argv) => ({
 			jQuery: 'jquery',
 			'windows.jQuery': 'jquery',
 		}),
+
+        new CopyPlugin({
+            patterns: [
+                { from: './CNAME', to: '.' }
+            ]
+        }),
 
         new MiniCssExtractPlugin({
 			filename: 'css/[name].css',
