@@ -1,134 +1,135 @@
-import _art29ea17657fdf4f55b3ffe1ba9a748ec9_ from "../../assets/art/1.jpg";
-import _art475ae73dd6684b5cbc39424b35b45d93_ from "../../assets/art/2.jpg";
-import _art5baa171350c64a0ea2aa7148e726bc53_ from "../../assets/art/3.jpg";
-import _art42dc75952aae4cbca82a31682cd75326_ from "../../assets/art/4.jpg";
-import _arte3ec7325c7f04b0eb90c37aec0d076c8_ from "../../assets/art/5.jpg";
-import _arta907fe309c70459d9f91e9c3f0fe7f82_ from "../../assets/art/6.jpg";
-import _art460114a0a5ab4b6bb11630dc039fb71e_ from "../../assets/art/7.jpg";
-import _art2a95523a373640bea849287b823893d8_ from "../../assets/art/8.jpg";
-import _artb3a02c8566cc415396220ec2b6b1a551_ from "../../assets/art/abduction-of-the-alebrije.jpg";
-import _art130e43d81535464eb26c3b89fb968a29_ from "../../assets/art/abduction-of-the-alebrije-LINEART.jpg";
-import _artb8c8ad16a10841feaf6cb3fe2ea4b2c8_ from "../../assets/art/aalebrije.jpg";
-import _art660191eff13e40c1a2c8145f6da304f2_ from "../../assets/art/BANJO AND KAZOOIE.jpg";
-import _art8f969e7b69344510ab71b2d57eb023a9_ from "../../assets/art/tote angeles chica 1.png";
-import _artf1a0c521b2434460af61cc6e2b0ed5ec_ from "../../assets/art/tote angeles chica sketch.png";
-import _art5f72ba150c0b420087958b5317d6a3f5_ from "../../assets/art/tote angeles mediana 1.png";
-import _art14a29682230442de9e2ed9bc0f39e846_ from "../../assets/art/tote angeles mediana sketch.png";
-import _artfb369f88fde54f5285c3fa3558418c1a_ from "../../assets/art/tote angeles grande 1.png";
-import _art822aa58f30be42a1b706f9e73756575a_ from "../../assets/art/tote angeles grande sketch.png";
-import _artfbf69ffedc4a4a248316395f65d1aa0a_ from "../../assets/art/isabella 2020 tipo.jpg";
-import _artaeb8ee8765744d3abd39a0ad494fb99e_ from "../../assets/art/isabella 2020 lineart.jpg";
-import _art856dbabfec4f4e388190f572e1ff8b75_ from "../../assets/art/isabella 2020 sketch.jpg";
-import _art18cdc1744ef44884a809696457f4ca41_ from "../../assets/art/Barroco CDC.jpg";
-import _art98c798d567524a7890cd1a9f50e80846_ from "../../assets/art/character design challenge lineart.jpg";
-import _arta5cb29703d754fadb51779b81147131d_ from "../../assets/art/character design challenge sketch.jpg";
-import _artada307d15ad74960a02a94e9ab2826aa_ from "../../assets/art/facing 2019.jpg";
-import _artc579c456def447fb9783e5c278ff0e68_ from "../../assets/art/2019 ilus.jpg";
-import _art9c8b00d65c6144308a07fc4246104619_ from "../../assets/art/2019 ilus sketcg.jpg";
-import _art8169268d4f9e408e93423ba5d6900058_ from "../../assets/art/la danza del coyongo 2.jpg";
-import _artbd6461aa28934e0ea13a514c8c8cda57_ from "../../assets/art/la danza del coyongo lineart 2.jpg";
-import _art6d94eb28fbd5448eba39645dd55a0514_ from "../../assets/art/la danza del coyongo sketch.jpg";
-import _artc1e606211232463d9534a665a09e1631_ from "../../assets/art/beholder dnd screen.jpg";
-import _art0ea27faab4cf4576830c108d8a5f3295_ from "../../assets/art/beholder dnd scrennen.jpg";
-import _art3ade43d3dca04918997030c4379a9d6f_ from "../../assets/art/pantalla template 4 no sketch.jpg";
-import _art0ec58db76147482fa3011b17f57bcfe8_ from "../../assets/art/pantalla template 4 no sketch1.jpg";
-import _art8eb3c10ce1004c10bca2c9e0a4d3bc17_ from "../../assets/art/The dragon king fc.jpg";
-import _art776098ea582e47b0946fdbd3972483e0_ from "../../assets/art/The dragon king 8.jpg";
-import _artdd2fe56c719b4c6d877960850c074ed0_ from "../../assets/art/The dragon king 11 with sketch.jpg";
-import _artc7e2c0d009b14004ac7096ef9a9947b5_ from "../../assets/art/The dragon king 16.jpg";
-import _art9307496ceb6e42b88ed576d0561993aa_ from "../../assets/art/dragon king concept art 2.jpg";
-import _art5982944d49674ad0978e1e7e4b3a92e0_ from "../../assets/art/dragon king concept art 1.jpg";
-import _art7138fc4903df49b88de7e39f2abbbf4e_ from "../../assets/art/Dahlia concept art.jpg";
-import _art899a0a2cf01d4a3fa65833c862ad42ed_ from "../../assets/art/negrita frucaribe a.jpg";
-import _artf47c136316a24c18911ff5bb140800ee_ from "../../assets/art/negrita frucaribe B&N 2.jpg";
-import _art7bfbb3b96eef436888a7991644c5d2a6_ from "../../assets/art/ilus frucaribe 5.jpg";
-import _artefb30e1b6824449a82b93b9fbc8f9384_ from "../../assets/art/ilus frucaribe 2.jpg";
-import _artd06f51fc07b14ae4a2378888003433dd_ from "../../assets/art/ilus frucaribe 1.jpg";
-import _art12b5fea94d6741bc9ce8101fd466f541_ from "../../assets/art/libraq FINAL CONCEPT.jpg";
-import _art830b4d6dfdec42b9b7b18ddd6a87327a_ from "../../assets/art/libro de sangre.jpg";
-import _artf20e2e19f16544a499ea0c9647e9c4a4_ from "../../assets/art/libro del sol.jpg";
-import _artd56076b6ee6b4b7e9edd09b8d7d61e11_ from "../../assets/art/libro de la esperanza.jpg";
-import _art2c149412ea104f30b08e23133f64d76d_ from "../../assets/art/libro de la luna.jpg";
-import _art9e68ad48490f4a969bdc4f45e191ca68_ from "../../assets/art/lineart lobros.jpg";
-import _art5f7e032d9c264ac29b2882ba5dbbe41f_ from "../../assets/art/libraq FINAL CONCEPT 2.jpg";
-import _art00c12fbd8b324fd0a730dd2a78c97074_ from "../../assets/art/lovecraft ada .jpg";
-import _artd13ee4deb3cf4951a795f41eea0be039_ from "../../assets/art/lovecraft ada lineart.jpg";
-import _artd399d06fa775438ba47c904b2c1ccb16_ from "../../assets/art/lovecraft ada sketch.jpg";
-import _art9303349f5ae04af0a428094746f660f2_ from "../../assets/art/tres moiras 100res.jpg";
-import _art531645ed17ae43e3a7a6b442b273f114_ from "../../assets/art/tres moiras lineart.jpg";
-import _art178b7f58e82a4821b9ea3d61c38dd3c9_ from "../../assets/art/tres moiras sketch.jpg";
-import _arte80075e1175a4804aa0665c2d04ea161_ from "../../assets/art/Shield of arms 1.jpg";
-import _art365fcccb3dea41ab82af5595925ef101_ from "../../assets/art/Shield of arms 3.jpg";
-import _art87a3d101aed44ca091bf06370f2d7238_ from "../../assets/art/Shield of arms sketch.jpg";
-import _art88a69258b5dd404c9aee42dbfa6c09a3_ from "../../assets/art/108_leav_cafe 2.jpg";
-import _art7b97bbf33a0c44368f364a8f33a3e6fa_ from "../../assets/art/lineart.jpg";
-import _art67fc87b8053e4740b3395083fec4b404_ from "../../assets/art/sketch.jpg";
-import _artbd1e45ddc95c4910bbc62aa5d7e2adf8_ from "../../assets/art/108_Wheeler.jpg";
-import _artcad84bf591e24aca88a44ffa3ba25850_ from "../../assets/art/gardevoir unite.jpg";
-import _art85d6fa9f5f1f4ede8f15cbfe517f409f_ from "../../assets/art/gardevoir unite lineart.jpg";
-import _arta19b89efd91c478ca993f5102b985c02_ from "../../assets/art/mega gardevoir 2.jpg";
-import _artf8288334122548efa6feaf6f3061fe45_ from "../../assets/art/mega gardevoir lineart.jpg";
-import _art7b143c8274ee4d5396d622efcfe0e4a9_ from "../../assets/art/godzilla.jpg";
-import _art0653805b55e44979b254f0ffe31c1da5_ from "../../assets/art/lineart godzilla.jpg";
-import _art48956bfa15b34c718934825a1a65031e_ from "../../assets/art/rosalina and luma 300dp1.jpg";
-import _artf76e089e75d84abb865035dea7c9675e_ from "../../assets/art/rosalina and luma lineart.jpg";
-import _art71db2d03612c4680883649e49fcdcbd6_ from "../../assets/art/SIXFANARTS.jpg";
-import _artf8dfd5f2656d48a39269cda10dfcfbfb_ from "../../assets/art/SIXFANARTS 1.jpg";
-import _art8e94a0d7a0cf4d9d8ed39547d0ad3de8_ from "../../assets/art/luminos 1.jpg";
-import _artec4ce532ab9646918611b0cacb3529a3_ from "../../assets/art/luminos 2.jpg";
-import _artba8acf8716ec4033983f99cbfa8c4bfa_ from "../../assets/art/luminos BW 1.png";
-import _arta4879f43fbd04ab6879066c3989fd436_ from "../../assets/art/german 3.jpg";
-import _art4d1e0c28e4dc44b9aec2e26ca2ad99ee_ from "../../assets/art/damarys 3.jpg";
-import _art7bdcdcb763e44f2d953c81849c38e2aa_ from "../../assets/art/catalina 2.jpg";
-import _artafb201cff6f1496c8a1f25142b368c68_ from "../../assets/art/Javier 2.jpg";
-import _art7cabd0613fba4e38b1933570eb35f323_ from "../../assets/art/Delicias de Clau.jpg";
-import _art2c1f6e3fd76a4bd7b39c66ffc98b62e1_ from "../../assets/art/Delicias de Clau blancoy negro.jpg";
-import _art8bf2e50606854722a9cfe73b7f0518f1_ from "../../assets/art/Huevos JS.jpg";
-import _art0e90034c51fd498e8abaa8890e2038f9_ from "../../assets/art/Huevos JS blanco y negro.jpg";
-import _art8418500c56bd4d8fb162e994b1cd7384_ from "../../assets/art/GRIS 300dpi.jpg";
-import _artb3737ac0e7334dfe8eedc54bbf13f939_ from "../../assets/art/GRIS lineart.png";
-import _artabe30137ab4d47b4b6b3990def9a2082_ from "../../assets/art/GRIS sketch.png";
-import _artef0c4849fc1b4bf2aac1dc30d76c47ea_ from "../../assets/art/orb line a.png";
-import _art563f7bfd362749e3a0b0f7e079ad19e8_ from "../../assets/art/orb line shiny a.png";
-import _art5073dddd545d48948213693c7e8292c7_ from "../../assets/art/orbeetle giga.png";
-import _arta79298d8cf02483cadb60950f5e672b7_ from "../../assets/art/orbeetle a.png";
-import _artac99e4d3b61845ad8456e46cb0a508a7_ from "../../assets/art/dottler.png";
-import _artd840cc62b58a4b3487756d14f8873f4c_ from "../../assets/art/blibug.png";
-import _artaa34a76c5b3645118d695405fbf9d7cd_ from "../../assets/art/orbeetle ipad wallpaper.png";
-import _art8cc8c7125ad242188887f1349c1d408a_ from "../../assets/art/Showers 134.jpg";
-import _art51740a39e4b6417d8e9d817b838209be_ from "../../assets/art/vaporeon bath lineart.jpg";
-import _artc28c9d4a3d244435956d88469ca45ee8_ from "../../assets/art/pokemon frame.jpg";
-import _art28c93378b23c4116a88b22c7075d9ffc_ from "../../assets/art/spritzee frame.jpg";
-import _art0ac77d1f2a7d4ad7a1f50ac633f19876_ from "../../assets/art/murkrow frame.jpg";
-import _art130b97dfe857405782229f8a883c2d32_ from "../../assets/art/jumpluff frame.jpg";
-import _art380afb01bb7343d39775bc89d97b8b56_ from "../../assets/art/scraggy frame.jpg";
-import _artd498b21b81454779977800c5fae0f53d_ from "../../assets/art/frame lineart.jpg";
-import _art59938ce96455490baffd84c9973da42a_ from "../../assets/art/kofi page color.png";
-import _arta39f36cb64e344a4a941efb56a385782_ from "../../assets/art/kofi page bw.png";
-import _artb958205b9c8345ccb09820d46f38188d_ from "../../assets/art/kofi page sketch.png";
-import _art5cc354d71b014316aeb9de1f3fe04dd4_ from "../../assets/art/b71b1691656c5e2c153e51d46c3d82c5.jpg";
-import _art4d17626f97f84bbf896601152ecb3ae1_ from "../../assets/art/banjo-thumbnail.png";
-import _art8b07c12b02db4328a916ab9adb8e8dbe_ from "../../assets/art/thumbnail-carnaval-2020.png";
-import _artbef2cf2d925042419125e93f770bb38a_ from "../../assets/art/cdc-thumbnail.png";
-import _arte4660baf5db740ee8b8ec14193ca23e3_ from "../../assets/art/city-thumbnail.png";
-import _art218c3b9a24c343859d5ff49db06ab4c9_ from "../../assets/art/coyongo-thumbnail.png";
-import _artcf0845b8caa6424cb004a97a4ad3d319_ from "../../assets/art/beholder-tumbnail.png";
-import _arte32dff4eeca64e1db8891bf6f5be6c37_ from "../../assets/art/dragon-king-thumbnail.png";
-import _art4eed75b590f14bdbbb4bdb1cbf60189f_ from "../../assets/art/frucaribe-thumbnail.png";
-import _artddcb03bb426244bc93f5aeb2c2b053ac_ from "../../assets/art/libraq FINAL CONCEPT 72.jpg";
-import _artbec5a2dfc00042d5a566bc246d4ac3a2_ from "../../assets/art/mitos de cthulu_leav_cafe.jpg";
-import _artd320688d463b42af84d6e1dc674e462e_ from "../../assets/art/shield-thumbnail.png";
-import _artecc0bdb5bd2642988de2d1b792d54b38_ from "../../assets/art/monster-humbnail.png";
-import _arta31969a184cf45ff9f2431a467486d48_ from "../../assets/art/gardevogue-thumbnail.png";
-import _art9c468b76685f4c7f965483ff0dae43ba_ from "../../assets/art/godzilla-thumbnail.png";
-import _art2af62d986ab84a6e91c9d73810fe6137_ from "../../assets/art/rosa-thumbnail.png";
-import _artffa2b38754654f65a75de8a393bd32c3_ from "../../assets/art/SIXFANARTS 72.jpg";
-import _art29e527576c5b4538a94320af5d9be52c_ from "../../assets/art/hdac-thumbnail.png";
-import _art855d372a5e394e34b34c671e8b7bb7e3_ from "../../assets/art/fam-thumbnail.png";
-import _art933795b00c334a94a0c1def463fe6031_ from "../../assets/art/GRIS 72dpi.jpg";
-import _art5bfff4700f0446af9d4093775cba99d0_ from "../../assets/art/orb thumbnail.png";
-import _art6f08909fc9724bc387a292ebe15693ce_ from "../../assets/art/Showers 134 100res.jpg";
-import _artad5fe5f2c7ad48d0ae7251da34d59b56_ from "../../assets/art/frame-thumbnail.png";
+import _artaec1984139ed417c8634878177917144_ from "../../assets/art/1.jpg";
+import _art74bde9d395f34fd7abfbda811666df82_ from "../../assets/art/2.jpg";
+import _art0f68c0691d4e48a8ba4454014bc8f63e_ from "../../assets/art/3.jpg";
+import _art1228545d0e924167bf0e54d985f001ee_ from "../../assets/art/4.jpg";
+import _art9ff4b560f8ab4c7c8cda91a87192f063_ from "../../assets/art/5.jpg";
+import _art76c08a5a4e3947dfb4372317c494a03e_ from "../../assets/art/6.jpg";
+import _artc7644a45ba274ad5a92a6c569ce262f7_ from "../../assets/art/7.jpg";
+import _artefd128814121489fb2f6437c4cfc2c6f_ from "../../assets/art/8.jpg";
+import _art358ac0f8a48c44979ce20cd731dabd6d_ from "../../assets/art/abduction-of-the-alebrije.jpg";
+import _art8b9efbd69c6a4537aaeafb62c3b4a2f3_ from "../../assets/art/abduction-of-the-alebrije-LINEART.jpg";
+import _art20568a531f344979962d5732c1d51b81_ from "../../assets/art/aalebrije.jpg";
+import _artd954eaba5dc443d6b0d612e5c0723e82_ from "../../assets/art/BANJO AND KAZOOIE.jpg";
+import _art3a6a977c24c54cfd8b3eca174d42ebeb_ from "../../assets/art/tote angeles chica 1.png";
+import _art98a0e2b1e621471abe69b732e9ff56fe_ from "../../assets/art/tote angeles chica sketch.png";
+import _artf49ce7cce6564814a59e0143a6322d9c_ from "../../assets/art/tote angeles mediana 1.png";
+import _art24856d80f12d46c9a1c37b45f5c1e68e_ from "../../assets/art/tote angeles mediana sketch.png";
+import _art3af8d085f6da4ec3bca80f6d7c10a98c_ from "../../assets/art/tote angeles grande 1.png";
+import _art779a953e22624183938cb769c721ea3e_ from "../../assets/art/tote angeles grande sketch.png";
+import _art02265966dd614479a5ca117477555568_ from "../../assets/art/isabella 2020 tipo.jpg";
+import _artaea2e7c5276542449ad05c8a4ebd208b_ from "../../assets/art/isabella 2020 lineart.jpg";
+import _art29c14bbe960c4c4caa29dd54584e41c4_ from "../../assets/art/isabella 2020 sketch.jpg";
+import _art6b36d808f24f405c9e7fc4e87d1faeae_ from "../../assets/art/Barroco CDC.jpg";
+import _art84f1d2e4608d41b9a1d861805081385a_ from "../../assets/art/character design challenge lineart.jpg";
+import _art61f2867addcb412487f8b4cff3960379_ from "../../assets/art/character design challenge sketch.jpg";
+import _artca620f4414a5488ab636c96d7d2952ab_ from "../../assets/art/facing 2019.jpg";
+import _artf898ed44a7e540adb1c967e875683c83_ from "../../assets/art/2019 ilus.jpg";
+import _art3195c464408b456dab91869525cbfc24_ from "../../assets/art/2019 ilus sketcg.jpg";
+import _artcbcc609676864de2a8a28b576c1be153_ from "../../assets/art/la danza del coyongo 2.jpg";
+import _art3511ed4a53d44841ba7e3577ffb989c3_ from "../../assets/art/la danza del coyongo lineart 2.jpg";
+import _art1d6c60d456b046e39da563f27f59bf9a_ from "../../assets/art/la danza del coyongo sketch.jpg";
+import _arta5ca88f9636e49178dd4644cefde1f15_ from "../../assets/art/beholder dnd screen.jpg";
+import _art027282fc199b46b390c464acc1dde7f7_ from "../../assets/art/beholder dnd scrennen.jpg";
+import _art3053c521e4cc46d59b7853409f0d3171_ from "../../assets/art/pantalla template 4 no sketch.jpg";
+import _arta04c739b0aee48c78c732fd87a6146ca_ from "../../assets/art/pantalla template 4 no sketch1.jpg";
+import _artc987d274acc44590b6f0d00702bcc0f7_ from "../../assets/art/The dragon king fc.jpg";
+import _art02a414c4442d400a892ae732c118394a_ from "../../assets/art/The dragon king 8.jpg";
+import _artbea43a4c05f548e9a0e2ff52266d9f62_ from "../../assets/art/The dragon king 11 with sketch.jpg";
+import _art95c89364743d4df3ae55bca38c3c0219_ from "../../assets/art/The dragon king 16.jpg";
+import _art54f254815ea74de4b27ca4babb033b66_ from "../../assets/art/dragon king concept art 2.jpg";
+import _artb0245403e1a4451d93d09b78373d8b1e_ from "../../assets/art/dragon king concept art 1.jpg";
+import _artd68f5da588af4ee3939688bbec068ed7_ from "../../assets/art/Dahlia concept art.jpg";
+import _artf108c7ae01b245fbaee18db150f75074_ from "../../assets/art/negrita frucaribe a.jpg";
+import _artd12fc71597ed4fe49d32142495d6ecbf_ from "../../assets/art/negrita frucaribe B&N 2.jpg";
+import _art8b7ea1a04a464299b2b2eeed23eb2ccb_ from "../../assets/art/ilus frucaribe 5.jpg";
+import _art4b7b64d053b044e1a0a9c70bd9bf1ae2_ from "../../assets/art/ilus frucaribe 2.jpg";
+import _arta9f3d0d04db549c7b2bd5c28a80fde03_ from "../../assets/art/ilus frucaribe 1.jpg";
+import _art198a29891e2643199aac37f8f726571a_ from "../../assets/art/libraq FINAL CONCEPT.jpg";
+import _art2f083999c2da4962b71e41566f1feeba_ from "../../assets/art/libro de sangre.jpg";
+import _art03b1073ccf704a64beee50cb205785c5_ from "../../assets/art/libro del sol.jpg";
+import _art0ffabdbf00d243b38c4531ed65f4e092_ from "../../assets/art/libro de la esperanza.jpg";
+import _art60753b50faec44e2ae417e5ef97c873f_ from "../../assets/art/libro de la luna.jpg";
+import _art5910812e7c824632a5833de64e2d900d_ from "../../assets/art/lineart lobros.jpg";
+import _artcf2fd6aae3f049b4b46642c49f7f8d82_ from "../../assets/art/libraq FINAL CONCEPT 2.jpg";
+import _art5829cc3ca0aa428984bb270297520c45_ from "../../assets/art/lovecraft ada .jpg";
+import _arta994aa244cdf4c61b6b2ff496f59f67e_ from "../../assets/art/lovecraft ada lineart.jpg";
+import _artc7568a704ef84ee09180cb0b5860f771_ from "../../assets/art/lovecraft ada sketch.jpg";
+import _art04b88f1361594d57896277a8d3d678b6_ from "../../assets/art/tres moiras 100res.jpg";
+import _artad465fa3786040b7aed6425bbdf02948_ from "../../assets/art/tres moiras lineart.jpg";
+import _arte3ed7de59fd24c3f895d14092cfc28d4_ from "../../assets/art/tres moiras sketch.jpg";
+import _artef74c3161a8a47e0985831f51e4a1872_ from "../../assets/art/Shield of arms 1.jpg";
+import _art78c5a7de0df449678afc72c402c1ee7f_ from "../../assets/art/Shield of arms 3.jpg";
+import _art7e5a8d3a61d24e069d76094a6a034c30_ from "../../assets/art/Shield of arms sketch.jpg";
+import _art829defe775e44706b182eee923378e50_ from "../../assets/art/108_leav_cafe 2.jpg";
+import _art086ec01683ab4a38b48dcea7a20c6926_ from "../../assets/art/lineart.jpg";
+import _artee3334af74554ab898bf197e6a4672fb_ from "../../assets/art/sketch.jpg";
+import _arta6d0378295fc4ee784d57b25adc73bfb_ from "../../assets/art/108_Wheeler.jpg";
+import _art82fca2fd3c3b4edd9780dcf8ff49a762_ from "../../assets/art/gardevoir unite.jpg";
+import _art06feb0cd478b47138e0b4f5729b46a7a_ from "../../assets/art/gardevoir unite lineart.jpg";
+import _art3eef7d1b6f4143f8b2be6e1a9d20a4fb_ from "../../assets/art/mega gardevoir 2.jpg";
+import _artf2fb814d5d7240fb93d8958c3d91f3fe_ from "../../assets/art/mega gardevoir lineart.jpg";
+import _art21092582c0b142f28ce0c1f6c42fb13e_ from "../../assets/art/godzilla.jpg";
+import _art7c4dc835a3514747a46171fbc8706d50_ from "../../assets/art/lineart godzilla.jpg";
+import _art07925f0219074ae5bef0ea94a4f92638_ from "../../assets/art/rosalina and luma 300dp1.jpg";
+import _artb49f09a08dc84b20a4a988c643b2c01d_ from "../../assets/art/rosalina and luma lineart.jpg";
+import _art3c3fbfaadede4bdcb83f216c0021dfd6_ from "../../assets/art/SIXFANARTS.jpg";
+import _art3f98c338abd2407ba3b78a7ae0ffd321_ from "../../assets/art/SIXFANARTS 1.jpg";
+import _artec03042d33464ce29fb97e81e5a2649f_ from "../../assets/art/luminos 1.jpg";
+import _art8872c9d8cee6438fbf664da5b6cdda5d_ from "../../assets/art/luminos 2.jpg";
+import _art3a39bffd9d634c708d26270ca8299448_ from "../../assets/art/luminos BW 1.png";
+import _artd71bf7065a7c47d8aaeb14759f643302_ from "../../assets/art/german 3.jpg";
+import _art08fa4a4e8fad40c7960bb12edb5cdfbf_ from "../../assets/art/damarys 3.jpg";
+import _art48bfda52cd054f4aaa3afb5b6682e508_ from "../../assets/art/catalina 2.jpg";
+import _art057d37f07eb44a9db5b72fdf8b20a121_ from "../../assets/art/Javier 2.jpg";
+import _art2b3c0019aa814c3ea201d2520a40d768_ from "../../assets/art/Delicias de Clau.jpg";
+import _art1b65554f699047038452f8ea11aac77f_ from "../../assets/art/Delicias de Clau blancoy negro.jpg";
+import _arta0dadad989a84b9ba8d4425938439c2c_ from "../../assets/art/Huevos JS.jpg";
+import _art0a95dfe8e45246a1b960e30eeec54547_ from "../../assets/art/Huevos JS blanco y negro.jpg";
+import _art802ae23194f548d4ba6dd0b389c66a73_ from "../../assets/art/GRIS 300dpi.jpg";
+import _art8c65e524e3b34d41ac81a17c29298a04_ from "../../assets/art/GRIS lineart.png";
+import _art4405dde475f34e90a6b1b26c9c22d0ba_ from "../../assets/art/GRIS sketch.png";
+import _art497dd9fc48354ee48dd52eb7d0ec7a06_ from "../../assets/art/orb line a.png";
+import _art357bf0abde234f2081805d7dad2e0e66_ from "../../assets/art/orb line shiny a.png";
+import _art3756b512a9014be1bc8c7b5fcecd5966_ from "../../assets/art/orbeetle giga.png";
+import _art5b5dabd93e844ed69b0d5bab73381902_ from "../../assets/art/orbeetle a.png";
+import _art3072ba5c015f4a25b5274a54c0a21b6d_ from "../../assets/art/dottler.png";
+import _artf3614313b74e4d1e8a40a9d5265f631c_ from "../../assets/art/blibug.png";
+import _art2db48cd550964f36af84b52ae182dd0e_ from "../../assets/art/orbeetle ipad wallpaper.png";
+import _art78022356bcec478d8d04f1a109a34f6f_ from "../../assets/art/Showers 134.jpg";
+import _art30d09747225b4bca9a4f522307531a93_ from "../../assets/art/vaporeon bath lineart.jpg";
+import _artaa7140451f664d6bb60fa8d62277ae34_ from "../../assets/art/pokemon frame.jpg";
+import _artc233441efcc1468e9a3c820584d6deb5_ from "../../assets/art/spritzee frame.jpg";
+import _art9202e2a15b2540e591aaa6a0d25b002f_ from "../../assets/art/murkrow frame.jpg";
+import _artffe8e2dcbf074e78b7bc69beba1ec5ce_ from "../../assets/art/jumpluff frame.jpg";
+import _arte138282c25f94a79b1f70a38b90a6f83_ from "../../assets/art/scraggy frame.jpg";
+import _artd70b12544aef462fb65bf383260f940f_ from "../../assets/art/frame lineart.jpg";
+import _art6b063e1a09c94bfb8cc208ca75e7aa09_ from "../../assets/art/kofi page color.png";
+import _artbedd84692bde4f2aa842d45207e3ec18_ from "../../assets/art/kofi page bw.png";
+import _art800f356d2c4e406d97ef5687b12b4ada_ from "../../assets/art/kofi page sketch.png";
+import _artfeebd5ca3d934979afca576b62cb9d68_ from "../../assets/art/Juntos por siempre portada 2.png";
+import _art15a4b8bd2221477ea2fea770f85815f4_ from "../../assets/art/b71b1691656c5e2c153e51d46c3d82c5.jpg";
+import _art325c9c8ba75d4ebaa8ea17d7e9d8ab69_ from "../../assets/art/banjo-thumbnail.png";
+import _art509fda49ce6f42abb868ba36e92a6a9e_ from "../../assets/art/thumbnail-carnaval-2020.png";
+import _artc86dc389b2574e8bbc5dce1ed22d0b67_ from "../../assets/art/cdc-thumbnail.png";
+import _art9bfa812dbe9d483ea6c339cd0ce82377_ from "../../assets/art/city-thumbnail.png";
+import _art57a67c651df44b14a02adea7cc003702_ from "../../assets/art/coyongo-thumbnail.png";
+import _artb744c436fee94e74a2981dda3e5ca739_ from "../../assets/art/beholder-tumbnail.png";
+import _art0e7e11ce1e394432b7f74f5206093172_ from "../../assets/art/dragon-king-thumbnail.png";
+import _artae65fe6ce23d43c389ac4b5266fe59a0_ from "../../assets/art/frucaribe-thumbnail.png";
+import _art635d3f6157034ad5a38910cf5637b91b_ from "../../assets/art/libraq FINAL CONCEPT 72.jpg";
+import _art6e35ad38d8d445da8b925290541001e4_ from "../../assets/art/mitos de cthulu_leav_cafe.jpg";
+import _artcf1e8b3696fb488bbc09e7d7cb1f88d4_ from "../../assets/art/shield-thumbnail.png";
+import _art726fb567790d47ac8e7b38bffcfe49a2_ from "../../assets/art/monster-humbnail.png";
+import _art5e699c5796764efc8945d23ff95abc1d_ from "../../assets/art/gardevogue-thumbnail.png";
+import _artc6c07e15245e43b2ac6ed87976d1c197_ from "../../assets/art/godzilla-thumbnail.png";
+import _art78289906c5904288a322c82b3061acfd_ from "../../assets/art/rosa-thumbnail.png";
+import _arte472403033304ff9a5ae49791d1c2391_ from "../../assets/art/SIXFANARTS 72.jpg";
+import _art3c7e3bb6892e45bc924b56f34ebc0024_ from "../../assets/art/hdac-thumbnail.png";
+import _art3330610f3a4f48479e8b2d542033a85e_ from "../../assets/art/fam-thumbnail.png";
+import _art07b78d4d30714be68c4cf6360f16289c_ from "../../assets/art/GRIS 72dpi.jpg";
+import _art347d012517ca4b548d1b457856bed66c_ from "../../assets/art/orb thumbnail.png";
+import _arte8f1bbfd307c48d8a515a555fc1b76d5_ from "../../assets/art/Showers 134 100res.jpg";
+import _art9261cd66d1ba4591b760918c8ce13115_ from "../../assets/art/frame-thumbnail.png";
 
 let collection = [
   {
@@ -137,16 +138,16 @@ let collection = [
     "title": "Would you like to repeat?",
     "description": "A story written by Jared Lujan and illustrated by Leav Café.\r\n\r\nThis short comic tells the tale of a man accepting the fragile existence of  the human experience.",
     "technicalDetails": "Mixed media comic.\r\n8 pages.",
-    "thumbnail": _art5cc354d71b014316aeb9de1f3fe04dd4_,
+    "thumbnail": _art15a4b8bd2221477ea2fea770f85815f4_,
     "images": [
-      _art29ea17657fdf4f55b3ffe1ba9a748ec9_,
-      _art475ae73dd6684b5cbc39424b35b45d93_,
-      _art5baa171350c64a0ea2aa7148e726bc53_,
-      _art42dc75952aae4cbca82a31682cd75326_,
-      _arte3ec7325c7f04b0eb90c37aec0d076c8_,
-      _arta907fe309c70459d9f91e9c3f0fe7f82_,
-      _art460114a0a5ab4b6bb11630dc039fb71e_,
-      _art2a95523a373640bea849287b823893d8_
+      _artaec1984139ed417c8634878177917144_,
+      _art74bde9d395f34fd7abfbda811666df82_,
+      _art0f68c0691d4e48a8ba4454014bc8f63e_,
+      _art1228545d0e924167bf0e54d985f001ee_,
+      _art9ff4b560f8ab4c7c8cda91a87192f063_,
+      _art76c08a5a4e3947dfb4372317c494a03e_,
+      _artc7644a45ba274ad5a92a6c569ce262f7_,
+      _artefd128814121489fb2f6437c4cfc2c6f_
     ]
   },
   {
@@ -155,11 +156,11 @@ let collection = [
     "title": "Abduction of the alebrije",
     "description": "Alebrijes are Mexican sculptures characterized by their very vivid colors. But perhaps the most interesting thing is their appearance: A combination of various animals, whether real or mystical. Alebrijes defy the imagination.   \r\n\r\nFor this particular piece I liked the idea of ​​combining it with aliens. And by adding a little farmer, you could have a little bit of storytelling in the same illustration. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artb3a02c8566cc415396220ec2b6b1a551_,
+    "thumbnail": _art358ac0f8a48c44979ce20cd731dabd6d_,
     "images": [
-      _artb3a02c8566cc415396220ec2b6b1a551_,
-      _art130e43d81535464eb26c3b89fb968a29_,
-      _artb8c8ad16a10841feaf6cb3fe2ea4b2c8_
+      _art358ac0f8a48c44979ce20cd731dabd6d_,
+      _art8b9efbd69c6a4537aaeafb62c3b4a2f3_,
+      _art20568a531f344979962d5732c1d51b81_
     ]
   },
   {
@@ -168,9 +169,9 @@ let collection = [
     "title": "Banjo & Kazooie",
     "description": "Two characters that filled my childhood with joy. Banjo kazooie is a video game in which i spent countless hours playing as a kid; featuring Banjo the bear and Kazooie the sassy bird. Full of fun worlds and charismatic characters, It was inevitable that i would draw a picture of these crazy best friends. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art4d17626f97f84bbf896601152ecb3ae1_,
+    "thumbnail": _art325c9c8ba75d4ebaa8ea17d7e9d8ab69_,
     "images": [
-      _art660191eff13e40c1a2c8145f6da304f2_
+      _artd954eaba5dc443d6b0d612e5c0723e82_
     ]
   },
   {
@@ -179,14 +180,14 @@ let collection = [
     "title": "Angels",
     "description": "My mother believes with great faith in angels and so these illustrations are for her. \r\n\r\nMessengers who guide us in our decisions, they help us cope with difficulties in our lives and are always there to protect us from evil. \r\n\r\nWith this in mind, I wanted to represent that benefactor side of these celestial beings. By using some prayers and psalms, i was able to give a little more context and depth to these pieces.  \r\n\r\nLastly, the use of black and white was chosen to emphasize its light and goodness. \r\n\r\nI love you, mom!",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _art8f969e7b69344510ab71b2d57eb023a9_,
+    "thumbnail": _art3a6a977c24c54cfd8b3eca174d42ebeb_,
     "images": [
-      _art8f969e7b69344510ab71b2d57eb023a9_,
-      _artf1a0c521b2434460af61cc6e2b0ed5ec_,
-      _art5f72ba150c0b420087958b5317d6a3f5_,
-      _art14a29682230442de9e2ed9bc0f39e846_,
-      _artfb369f88fde54f5285c3fa3558418c1a_,
-      _art822aa58f30be42a1b706f9e73756575a_
+      _art3a6a977c24c54cfd8b3eca174d42ebeb_,
+      _art98a0e2b1e621471abe69b732e9ff56fe_,
+      _artf49ce7cce6564814a59e0143a6322d9c_,
+      _art24856d80f12d46c9a1c37b45f5c1e68e_,
+      _art3af8d085f6da4ec3bca80f6d7c10a98c_,
+      _art779a953e22624183938cb769c721ea3e_
     ]
   },
   {
@@ -195,11 +196,11 @@ let collection = [
     "title": "Carnaval 2020",
     "description": "The 2020 Barranquilla's Carnival was the last carnival in the city before the pandemic. There was already news from Wuhan the previous year, but in Colombia the health emergency was not declared until March. So the celebrations went on without problems. \r\n\r\nFor the 2020 Barranquilla's carnival, the queen of that year was Isabela Chams, a charismatic woman who would dance all 4 days of festivities. Using her joy as inspiration (and a photo where she has a rainbow dress and behind her a mural full of marimondas) this illustration was born. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art8b07c12b02db4328a916ab9adb8e8dbe_,
+    "thumbnail": _art509fda49ce6f42abb868ba36e92a6a9e_,
     "images": [
-      _artfbf69ffedc4a4a248316395f65d1aa0a_,
-      _artaeb8ee8765744d3abd39a0ad494fb99e_,
-      _art856dbabfec4f4e388190f572e1ff8b75_
+      _art02265966dd614479a5ca117477555568_,
+      _artaea2e7c5276542449ad05c8a4ebd208b_,
+      _art29c14bbe960c4c4caa29dd54584e41c4_
     ]
   },
   {
@@ -208,11 +209,11 @@ let collection = [
     "title": "Cosmagia",
     "description": "An illustration created as an entry for the CDC (character design challenge) on Facebook. The theme of the competition was \"baroque.\" \r\n\r\nA powerful, vain and manipulative king, a king who subdues his subjects an condemns them to death. Such were the ideas behind this piece, and so I used original characters for it (which can also be found throughout this page).  This illustration was selected as the winner of the challenge. Since it concisely exemplified the theme of the month. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artbef2cf2d925042419125e93f770bb38a_,
+    "thumbnail": _artc86dc389b2574e8bbc5dce1ed22d0b67_,
     "images": [
-      _art18cdc1744ef44884a809696457f4ca41_,
-      _art98c798d567524a7890cd1a9f50e80846_,
-      _arta5cb29703d754fadb51779b81147131d_
+      _art6b36d808f24f405c9e7fc4e87d1faeae_,
+      _art84f1d2e4608d41b9a1d861805081385a_,
+      _art61f2867addcb412487f8b4cff3960379_
     ]
   },
   {
@@ -221,11 +222,11 @@ let collection = [
     "title": "Facing 2019",
     "description": "When 2019 was about to start, I had high expectations for the future. I was experiencing new things with my art and my original characters had evolved and grown. Having all these things fluttering in my head, I decided to release them in the form of an illustration. ",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _arte4660baf5db740ee8b8ec14193ca23e3_,
+    "thumbnail": _art9bfa812dbe9d483ea6c339cd0ce82377_,
     "images": [
-      _artada307d15ad74960a02a94e9ab2826aa_,
-      _artc579c456def447fb9783e5c278ff0e68_,
-      _art9c8b00d65c6144308a07fc4246104619_
+      _artca620f4414a5488ab636c96d7d2952ab_,
+      _artf898ed44a7e540adb1c967e875683c83_,
+      _art3195c464408b456dab91869525cbfc24_
     ]
   },
   {
@@ -234,11 +235,11 @@ let collection = [
     "title": "La danza de los coyongos",
     "description": "\"The dance of the coyongos\" is a folk dance within the carnival celebrations of Barranquilla. A dance that refers to the birds that live near the rivers and bodies of water of the Colombian Atlantic.  \r\n\r\nThrough this dance, two stories are represented simultaneously. On the one hand, there is the colonization of Colombian territories, where the hunter represents the Spaniards, the birds the indigenous people who lived in these lands, and finally, a fish that represents the riches of nature. Likewise, this dance is a call to safeguard and protect the places where these birds live, which are in danger of extinction due to the loss of their habitat. This call has been passed from generation to generation by riverine and beach populations, bringing this iconic dance to the carnival every year. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art218c3b9a24c343859d5ff49db06ab4c9_,
+    "thumbnail": _art57a67c651df44b14a02adea7cc003702_,
     "images": [
-      _art8169268d4f9e408e93423ba5d6900058_,
-      _artbd6461aa28934e0ea13a514c8c8cda57_,
-      _art6d94eb28fbd5448eba39645dd55a0514_
+      _artcbcc609676864de2a8a28b576c1be153_,
+      _art3511ed4a53d44841ba7e3577ffb989c3_,
+      _art1d6c60d456b046e39da563f27f59bf9a_
     ]
   },
   {
@@ -247,12 +248,12 @@ let collection = [
     "title": "Beholder",
     "description": "Warriors of the sun and the moon, both teams facing one of the most fearsome and powerful creatures that exist in the universe. Rays of energy shoot out from its eyes and collide everywhere, its mouth full of sharp teeth cracks open as a huge eye stares directly at our warriors. It is a fight against the Beholder. \r\n\r\nThis was the idea behind this illustration; created with the dimensions of a screen of dungeons and dragons. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artcf0845b8caa6424cb004a97a4ad3d319_,
+    "thumbnail": _artb744c436fee94e74a2981dda3e5ca739_,
     "images": [
-      _artc1e606211232463d9534a665a09e1631_,
-      _art0ea27faab4cf4576830c108d8a5f3295_,
-      _art3ade43d3dca04918997030c4379a9d6f_,
-      _art0ec58db76147482fa3011b17f57bcfe8_
+      _arta5ca88f9636e49178dd4644cefde1f15_,
+      _art027282fc199b46b390c464acc1dde7f7_,
+      _art3053c521e4cc46d59b7853409f0d3171_,
+      _arta04c739b0aee48c78c732fd87a6146ca_
     ]
   },
   {
@@ -261,15 +262,15 @@ let collection = [
     "title": "The dragon king",
     "description": "A Pokémon “fan-book” that was brought to the comiket in Japan and received rave reviews from the doujin community.\r\nThe Dragon King tells the story of a tyrant king, who, reaped by power, loses almost all his loved ones, except for his newborn granddaughter.  \r\n\r\nWatching her grow will generate an important change in the king and his kingdom. \r\n\r\n ",
     "technicalDetails": "Mixed media digital art book.\r\n18 illustrations & original story.",
-    "thumbnail": _arte32dff4eeca64e1db8891bf6f5be6c37_,
+    "thumbnail": _art0e7e11ce1e394432b7f74f5206093172_,
     "images": [
-      _art8eb3c10ce1004c10bca2c9e0a4d3bc17_,
-      _art776098ea582e47b0946fdbd3972483e0_,
-      _artdd2fe56c719b4c6d877960850c074ed0_,
-      _artc7e2c0d009b14004ac7096ef9a9947b5_,
-      _art9307496ceb6e42b88ed576d0561993aa_,
-      _art5982944d49674ad0978e1e7e4b3a92e0_,
-      _art7138fc4903df49b88de7e39f2abbbf4e_
+      _artc987d274acc44590b6f0d00702bcc0f7_,
+      _art02a414c4442d400a892ae732c118394a_,
+      _artbea43a4c05f548e9a0e2ff52266d9f62_,
+      _art95c89364743d4df3ae55bca38c3c0219_,
+      _art54f254815ea74de4b27ca4babb033b66_,
+      _artb0245403e1a4451d93d09b78373d8b1e_,
+      _artd68f5da588af4ee3939688bbec068ed7_
     ]
   },
   {
@@ -278,13 +279,13 @@ let collection = [
     "title": "Frucaribe",
     "description": "Work done for the fruit and vegetable distributor, Frucaribe LLC.  \r\n\r\nThe objective of the work was to create a character that would represent their products and the fruit sellers of the Colombian Caribbean.  \r\nSince the company had its origins in Barranquilla, Colombia, the colors of the flag of the Colombian Atlantic capital were used as the chosen palette. \r\n\r\nIn the character's basket you can also see all the products that the company exports, avocados, yucca, bananas, pineapples and many others. ",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _art4eed75b590f14bdbbb4bdb1cbf60189f_,
+    "thumbnail": _artae65fe6ce23d43c389ac4b5266fe59a0_,
     "images": [
-      _art899a0a2cf01d4a3fa65833c862ad42ed_,
-      _artf47c136316a24c18911ff5bb140800ee_,
-      _art7bfbb3b96eef436888a7991644c5d2a6_,
-      _artefb30e1b6824449a82b93b9fbc8f9384_,
-      _artd06f51fc07b14ae4a2378888003433dd_
+      _artf108c7ae01b245fbaee18db150f75074_,
+      _artd12fc71597ed4fe49d32142495d6ecbf_,
+      _art8b7ea1a04a464299b2b2eeed23eb2ccb_,
+      _art4b7b64d053b044e1a0a9c70bd9bf1ae2_,
+      _arta9f3d0d04db549c7b2bd5c28a80fde03_
     ]
   },
   {
@@ -293,15 +294,15 @@ let collection = [
     "title": "Libraq: Concert of letters ",
     "description": "This illustration was made for a contest organized by the very first book fair of Barranquilla, Libraq. The theme was \"concert of letters\". \r\nWith this theme in mind, my goal was to create something that emcompased books and music, utilizing surrealism and size differences to encapture the theme as good as possible. And since this contest was for Barranquilla's first ever book fair, i tried to use elements and characters of its carnival and flag. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artddcb03bb426244bc93f5aeb2c2b053ac_,
+    "thumbnail": _art635d3f6157034ad5a38910cf5637b91b_,
     "images": [
-      _art12b5fea94d6741bc9ce8101fd466f541_,
-      _art830b4d6dfdec42b9b7b18ddd6a87327a_,
-      _artf20e2e19f16544a499ea0c9647e9c4a4_,
-      _artd56076b6ee6b4b7e9edd09b8d7d61e11_,
-      _art2c149412ea104f30b08e23133f64d76d_,
-      _art9e68ad48490f4a969bdc4f45e191ca68_,
-      _art5f7e032d9c264ac29b2882ba5dbbe41f_
+      _art198a29891e2643199aac37f8f726571a_,
+      _art2f083999c2da4962b71e41566f1feeba_,
+      _art03b1073ccf704a64beee50cb205785c5_,
+      _art0ffabdbf00d243b38c4531ed65f4e092_,
+      _art60753b50faec44e2ae417e5ef97c873f_,
+      _art5910812e7c824632a5833de64e2d900d_,
+      _artcf2fd6aae3f049b4b46642c49f7f8d82_
     ]
   },
   {
@@ -310,11 +311,11 @@ let collection = [
     "title": "Into the madness",
     "description": "As a member of the ADA ( in english, the Association of Argentine cartoonists) we were given the opportunity to create an illustration where we would represent a book that influenced our development as artists. \r\n\r\nMy choice was \"The Myths of Cthulhu.\" Fascinated by the worlds, characters and mysteries of such stories born from the mind of H.p. Lovecraft, I wanted to represent the cosmic, psychic and sometimes divine aspect of his stories. Lovecraft's tales shaped and influenced my ideas as an artist, giving them a strange and cosmic touch. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artbec5a2dfc00042d5a566bc246d4ac3a2_,
+    "thumbnail": _art6e35ad38d8d445da8b925290541001e4_,
     "images": [
-      _art00c12fbd8b324fd0a730dd2a78c97074_,
-      _artd13ee4deb3cf4951a795f41eea0be039_,
-      _artd399d06fa775438ba47c904b2c1ccb16_
+      _art5829cc3ca0aa428984bb270297520c45_,
+      _arta994aa244cdf4c61b6b2ff496f59f67e_,
+      _artc7568a704ef84ee09180cb0b5860f771_
     ]
   },
   {
@@ -323,11 +324,11 @@ let collection = [
     "title": "The three moirai",
     "description": "The three Moirai is the name of a crochet clothing entrepreneurship; referring to the three goddesses of Greek mythology who wove and cut the destiny of all beings on the planet. \r\n\r\nTaking into account the methodology for weaving the clothes, the idea was to dress the three characters in crocheted clothes and take inspiration from the unicorn tapestries to create this illustration. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art9303349f5ae04af0a428094746f660f2_,
+    "thumbnail": _art04b88f1361594d57896277a8d3d678b6_,
     "images": [
-      _art9303349f5ae04af0a428094746f660f2_,
-      _art531645ed17ae43e3a7a6b442b273f114_,
-      _art178b7f58e82a4821b9ea3d61c38dd3c9_
+      _art04b88f1361594d57896277a8d3d678b6_,
+      _artad465fa3786040b7aed6425bbdf02948_,
+      _arte3ed7de59fd24c3f895d14092cfc28d4_
     ]
   },
   {
@@ -336,11 +337,11 @@ let collection = [
     "title": "Cosmagia's shield",
     "description": "As a fan of heraldic art I decided to design one using original characters and lore. \r\n\r\nIt is inevitable that, being an artist, one ends up creating their own worlds and characters. This shield is a manifestation of those ideas that constantly spin in my head. While they don't mean much to others, transforming ideas into drawings or illustrations frees up space in your mind to make room for new ideas and sometimes, seeing the finished piece, gives birth to better and new things. \r\n\r\nThis shield is an example of this exercise. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artd320688d463b42af84d6e1dc674e462e_,
+    "thumbnail": _artcf1e8b3696fb488bbc09e7d7cb1f88d4_,
     "images": [
-      _arte80075e1175a4804aa0665c2d04ea161_,
-      _art365fcccb3dea41ab82af5595925ef101_,
-      _art87a3d101aed44ca091bf06370f2d7238_
+      _artef74c3161a8a47e0985831f51e4a1872_,
+      _art78c5a7de0df449678afc72c402c1ee7f_,
+      _art7e5a8d3a61d24e069d76094a6a034c30_
     ]
   },
   {
@@ -349,12 +350,12 @@ let collection = [
     "title": "The monster project",
     "description": "I was invited to participate in “The monster project” an event organized by and organization of the same name that motivates children in Austin, Texas to get involved with art.  \r\n\r\nChildren create a creature or monster and then that drawing is re-created by an artist.The creative potential is immense, as children's drawings stimulate imagination and inspiration to create something interesting. \r\n\r\nThis was the monster I reinterpreted. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artecc0bdb5bd2642988de2d1b792d54b38_,
+    "thumbnail": _art726fb567790d47ac8e7b38bffcfe49a2_,
     "images": [
-      _art88a69258b5dd404c9aee42dbfa6c09a3_,
-      _art7b97bbf33a0c44368f364a8f33a3e6fa_,
-      _art67fc87b8053e4740b3395083fec4b404_,
-      _artbd1e45ddc95c4910bbc62aa5d7e2adf8_
+      _art829defe775e44706b182eee923378e50_,
+      _art086ec01683ab4a38b48dcea7a20c6926_,
+      _artee3334af74554ab898bf197e6a4672fb_,
+      _arta6d0378295fc4ee784d57b25adc73bfb_
     ]
   },
   {
@@ -363,12 +364,12 @@ let collection = [
     "title": "poke VOGUE",
     "description": "As we all know, VOGUE is a very world famous fashion magazine. So when characters that have nothing to do with the world of fashion, but could easily fit on a magazine cover, are illustrated as in one, they generate really cool fanart. \r\n\r\nIt's interesting, just the word VOGUE with that typography in combination with any character, it gives (unless it's a joke or meme) a touch of style and glamour. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _arta31969a184cf45ff9f2431a467486d48_,
+    "thumbnail": _art5e699c5796764efc8945d23ff95abc1d_,
     "images": [
-      _artcad84bf591e24aca88a44ffa3ba25850_,
-      _art85d6fa9f5f1f4ede8f15cbfe517f409f_,
-      _arta19b89efd91c478ca993f5102b985c02_,
-      _artf8288334122548efa6feaf6f3061fe45_
+      _art82fca2fd3c3b4edd9780dcf8ff49a762_,
+      _art06feb0cd478b47138e0b4f5729b46a7a_,
+      _art3eef7d1b6f4143f8b2be6e1a9d20a4fb_,
+      _artf2fb814d5d7240fb93d8958c3d91f3fe_
     ]
   },
   {
@@ -377,11 +378,11 @@ let collection = [
     "title": "Godzilla: King of the monsters",
     "description": "When Godzilla: King of the Monsters was being promoted prior to its release, different PR strategies were launched that generated intrigue and interest in the film and its kaijus. \r\n\r\nNeedless to say, these advertisements filled me with hype for the film and all this interest was canalized into this illustration. Here you can see the most important monsters of the movie, Mothra, Rodan and King Ghidorah, and off course, the main star, Godzilla. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art9c468b76685f4c7f965483ff0dae43ba_,
+    "thumbnail": _artc6c07e15245e43b2ac6ed87976d1c197_,
     "images": [
-      _art7b143c8274ee4d5396d622efcfe0e4a9_,
-      _art0653805b55e44979b254f0ffe31c1da5_,
-      _art67fc87b8053e4740b3395083fec4b404_
+      _art21092582c0b142f28ce0c1f6c42fb13e_,
+      _art7c4dc835a3514747a46171fbc8706d50_,
+      _artee3334af74554ab898bf197e6a4672fb_
     ]
   },
   {
@@ -390,10 +391,10 @@ let collection = [
     "title": "Rosalina",
     "description": "One of my favorite characters in the world of video games is Rosalina.She is the queen of the cosmos in the Super Mario universe, her aesthetics and history make this character very appealing to me. Naturally, I had to do a bit of fanart of her. \r\n\r\nThis magical character appeared for the first time in the game Super Mario Galaxy, an adventure that, if you can, you should definitely play. The video game is not only fun, but its story, although simple, is very beautiful. ",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _art2af62d986ab84a6e91c9d73810fe6137_,
+    "thumbnail": _art78289906c5904288a322c82b3061acfd_,
     "images": [
-      _art48956bfa15b34c718934825a1a65031e_,
-      _artf76e089e75d84abb865035dea7c9675e_
+      _art07925f0219074ae5bef0ea94a4f92638_,
+      _artb49f09a08dc84b20a4a988c643b2c01d_
     ]
   },
   {
@@ -402,10 +403,10 @@ let collection = [
     "title": "Six fan arts",
     "description": "A very popular hashtag on social media.\r\n\r\nthe idea was to draw in your style 6 characters recomended by your followers. these were the chosen six my instagram followers chose.\r\n\r\nGarfield, Dr. Manhattan, Amaterasu, Daenerys, zucker and wonder woman.",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artffa2b38754654f65a75de8a393bd32c3_,
+    "thumbnail": _arte472403033304ff9a5ae49791d1c2391_,
     "images": [
-      _art71db2d03612c4680883649e49fcdcbd6_,
-      _artf8dfd5f2656d48a39269cda10dfcfbfb_
+      _art3c3fbfaadede4bdcb83f216c0021dfd6_,
+      _art3f98c338abd2407ba3b78a7ae0ffd321_
     ]
   },
   {
@@ -414,11 +415,11 @@ let collection = [
     "title": "Luminos",
     "description": "In the process of writing stories, you come up with unique characters. These creations sometimes need to be brought to life through an illustration to see what new ideas will help make their design evolve.\r\nThis characters is a example of that excersize.",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art8e94a0d7a0cf4d9d8ed39547d0ad3de8_,
+    "thumbnail": _artec03042d33464ce29fb97e81e5a2649f_,
     "images": [
-      _art8e94a0d7a0cf4d9d8ed39547d0ad3de8_,
-      _artec4ce532ab9646918611b0cacb3529a3_,
-      _artba8acf8716ec4033983f99cbfa8c4bfa_
+      _artec03042d33464ce29fb97e81e5a2649f_,
+      _art8872c9d8cee6438fbf664da5b6cdda5d_,
+      _art3a39bffd9d634c708d26270ca8299448_
     ]
   },
   {
@@ -427,12 +428,12 @@ let collection = [
     "title": "Lenguas de almas Corrompidas",
     "description": "Fictional stories based on reality, Lenguas de almas corrompidas (tongues of corrupted souls) are short stories that speak of problems present in society. Homophobia, pedophilia and drugs are some of the topics covered. All from a perspective that seeks to generate empathy towards the victims and generate a degree of awareness on these matters. \r\n\r\nThese stories were written by Santiago Avila. \r\n\r\nwww.instagram.com/lenguasdealmascorrompidas ",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _art29e527576c5b4538a94320af5d9be52c_,
+    "thumbnail": _art3c7e3bb6892e45bc924b56f34ebc0024_,
     "images": [
-      _arta4879f43fbd04ab6879066c3989fd436_,
-      _art4d1e0c28e4dc44b9aec2e26ca2ad99ee_,
-      _art7bdcdcb763e44f2d953c81849c38e2aa_,
-      _artafb201cff6f1496c8a1f25142b368c68_
+      _artd71bf7065a7c47d8aaeb14759f643302_,
+      _art08fa4a4e8fad40c7960bb12edb5cdfbf_,
+      _art48bfda52cd054f4aaa3afb5b6682e508_,
+      _art057d37f07eb44a9db5b72fdf8b20a121_
     ]
   },
   {
@@ -441,12 +442,12 @@ let collection = [
     "title": "Small entrepeneurships",
     "description": "A single mother who through her passion for cooking has generated an extra income for herself, and a mother and son who together redistribute eggs to different customers around the city.  \r\n\r\nThese two small businesses needed a logo and illustration for their services. Stickers, social media and banners, these are some of the things they needed to do to advance their business. I hope I have helped you with these fun portraits and I wish you the best of success! ",
     "technicalDetails": "Digital illustration",
-    "thumbnail": _art855d372a5e394e34b34c671e8b7bb7e3_,
+    "thumbnail": _art3330610f3a4f48479e8b2d542033a85e_,
     "images": [
-      _art7cabd0613fba4e38b1933570eb35f323_,
-      _art2c1f6e3fd76a4bd7b39c66ffc98b62e1_,
-      _art8bf2e50606854722a9cfe73b7f0518f1_,
-      _art0e90034c51fd498e8abaa8890e2038f9_
+      _art2b3c0019aa814c3ea201d2520a40d768_,
+      _art1b65554f699047038452f8ea11aac77f_,
+      _arta0dadad989a84b9ba8d4425938439c2c_,
+      _art0a95dfe8e45246a1b960e30eeec54547_
     ]
   },
   {
@@ -455,11 +456,11 @@ let collection = [
     "title": "Gris",
     "description": "An illustration inspired by the magical world of the indie videogame, Gris. ",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art933795b00c334a94a0c1def463fe6031_,
+    "thumbnail": _art07b78d4d30714be68c4cf6360f16289c_,
     "images": [
-      _art8418500c56bd4d8fb162e994b1cd7384_,
-      _artb3737ac0e7334dfe8eedc54bbf13f939_,
-      _artabe30137ab4d47b4b6b3990def9a2082_
+      _art802ae23194f548d4ba6dd0b389c66a73_,
+      _art8c65e524e3b34d41ac81a17c29298a04_,
+      _art4405dde475f34e90a6b1b26c9c22d0ba_
     ]
   },
   {
@@ -468,15 +469,15 @@ let collection = [
     "title": "Orbeetle",
     "description": "Illustration of the pokemon orbeetle.\r\n\r\nThese pokemon quite obviously resemble an alien spaceship. and as such, little sci fi elemtnes were added, like other pokemon being abducted.",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art5bfff4700f0446af9d4093775cba99d0_,
+    "thumbnail": _art347d012517ca4b548d1b457856bed66c_,
     "images": [
-      _artef0c4849fc1b4bf2aac1dc30d76c47ea_,
-      _art563f7bfd362749e3a0b0f7e079ad19e8_,
-      _art5073dddd545d48948213693c7e8292c7_,
-      _arta79298d8cf02483cadb60950f5e672b7_,
-      _artac99e4d3b61845ad8456e46cb0a508a7_,
-      _artd840cc62b58a4b3487756d14f8873f4c_,
-      _artaa34a76c5b3645118d695405fbf9d7cd_
+      _art497dd9fc48354ee48dd52eb7d0ec7a06_,
+      _art357bf0abde234f2081805d7dad2e0e66_,
+      _art3756b512a9014be1bc8c7b5fcecd5966_,
+      _art5b5dabd93e844ed69b0d5bab73381902_,
+      _art3072ba5c015f4a25b5274a54c0a21b6d_,
+      _artf3614313b74e4d1e8a40a9d5265f631c_,
+      _art2db48cd550964f36af84b52ae182dd0e_
     ]
   },
   {
@@ -485,10 +486,10 @@ let collection = [
     "title": "Showers 134",
     "description": "The pokemon vaporeon is originally named in japanese as \"showers\" and its pokedex number is the 134.\r\n\r\nAnd thats basically the subject behind this piece, vaporeon taking a shower. ",
     "technicalDetails": "mixed media digital illustration",
-    "thumbnail": _art6f08909fc9724bc387a292ebe15693ce_,
+    "thumbnail": _arte8f1bbfd307c48d8a515a555fc1b76d5_,
     "images": [
-      _art8cc8c7125ad242188887f1349c1d408a_,
-      _art51740a39e4b6417d8e9d817b838209be_
+      _art78022356bcec478d8d04f1a109a34f6f_,
+      _art30d09747225b4bca9a4f522307531a93_
     ]
   },
   {
@@ -497,27 +498,41 @@ let collection = [
     "title": "Stickers",
     "description": "Some pokemon sticker designs!\r\n\r\nspritzee, murkrow, scraggy and jumpluff are the stars of these drawings!",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _artad5fe5f2c7ad48d0ae7251da34d59b56_,
+    "thumbnail": _art9261cd66d1ba4591b760918c8ce13115_,
     "images": [
-      _artc28c9d4a3d244435956d88469ca45ee8_,
-      _art28c93378b23c4116a88b22c7075d9ffc_,
-      _art0ac77d1f2a7d4ad7a1f50ac633f19876_,
-      _art130b97dfe857405782229f8a883c2d32_,
-      _art380afb01bb7343d39775bc89d97b8b56_,
-      _artd498b21b81454779977800c5fae0f53d_
+      _artaa7140451f664d6bb60fa8d62277ae34_,
+      _artc233441efcc1468e9a3c820584d6deb5_,
+      _art9202e2a15b2540e591aaa6a0d25b002f_,
+      _artffe8e2dcbf074e78b7bc69beba1ec5ce_,
+      _arte138282c25f94a79b1f70a38b90a6f83_,
+      _artd70b12544aef462fb65bf383260f940f_
     ]
   },
   {
     "id": 30,
     "category": "illustration",
     "title": "Leav Ko-fi",
-    "description": null,
+    "description": "Illustration created to promote Leav Café's KOFI page.\r\n\r\nThrough KOFI, you can support the artist's career by donating, having a monthly subscription or purchasing original digital products.\r\n\r\nBe sure to stop by and show some love!\r\n\r\nYou can access the page through the KOFI stamp button on this website's contact page.\r\n\r\nThank you!",
     "technicalDetails": "Mixed media digital illustration",
-    "thumbnail": _art59938ce96455490baffd84c9973da42a_,
+    "thumbnail": _art6b063e1a09c94bfb8cc208ca75e7aa09_,
     "images": [
-      _art59938ce96455490baffd84c9973da42a_,
-      _arta39f36cb64e344a4a941efb56a385782_,
-      _artb958205b9c8345ccb09820d46f38188d_
+      _art6b063e1a09c94bfb8cc208ca75e7aa09_,
+      _artbedd84692bde4f2aa842d45207e3ec18_,
+      _art800f356d2c4e406d97ef5687b12b4ada_
+    ]
+  },
+  {
+    "id": 31,
+    "category": "illustration",
+    "title": "Together forever",
+    "description": "A short story written and illustrated by Leav Café.\r\n\r\nYou can download and read the story for free and/or purchasing in it on Leav Café's KOFI page. (link on the contact page)\r\n\r\nSYNOPSIS:\r\nA story about a little ghost that suddenly wakes up in the middle of a strange place. Surrounded by darkness and dangerous monsters, the little gohost embarks on a quest to find his mother.",
+    "technicalDetails": "Mixed media digital illustrations.\r\n",
+    "thumbnail": _artfeebd5ca3d934979afca576b62cb9d68_,
+    "images": [
+      _artfeebd5ca3d934979afca576b62cb9d68_,
+      _artaec1984139ed417c8634878177917144_,
+      _art74bde9d395f34fd7abfbda811666df82_,
+      _art9ff4b560f8ab4c7c8cda91a87192f063_
     ]
   }
 ];
