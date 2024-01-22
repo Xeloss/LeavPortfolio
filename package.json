@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode development",
-    "release": "webpack --mode production"
+    "prerelease": "nvm use 16",
+    "release": "webpack --mode production",
+    "postrelease": "nvm use newest"
   },
   "license": "MIT",
   "devDependencies": {
